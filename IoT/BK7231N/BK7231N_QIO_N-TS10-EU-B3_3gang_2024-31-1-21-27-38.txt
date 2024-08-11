@@ -1,0 +1,7 @@
+P6 - Rel 1
+P8 - Rel 2
+P9 - Rel 3
+P26 - Green LED
+P7 - Btn 1
+P10 - Btn 2
+P24 - Btn 3
