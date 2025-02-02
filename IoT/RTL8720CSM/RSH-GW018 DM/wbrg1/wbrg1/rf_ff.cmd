@@ -1,1 +1,0 @@
-python3 rtltool.py -p COM11 -b1500000 rf 0 0x800000 ff.bin
