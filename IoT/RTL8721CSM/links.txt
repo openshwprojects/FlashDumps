@@ -1,0 +1,9 @@
+Tuya_GW018-DM_WiFi+BT+ZG_Gateway_keyyj3fy8x98arty_WBRG1-pvvx.bin
+https://github.com/pvvx/pvvx.github.io/tree/d7908276c06bb6fac7e1a0fe1f226f004fb6bcb8/RSH-GW018_DM/bin
+
+Tuya_TYGWZB-01N_WiFi+BT+ZG_Gateway_keyyj3fy8x98arty_WBRG1-insmod.bin
+https://www.elektroda.com/rtvforum/viewtopic.php?p=21421759#21421759
+
+Tuya-Gateway-20250219-keyyj3fy8x98arty_WBRG1-p.kaczmarek2.bin
+https://www.elektroda.com/rtvforum/viewtopic.php?p=21446863#21446863
+was Tuya-Gateway-20250219-WBRG1.bin
