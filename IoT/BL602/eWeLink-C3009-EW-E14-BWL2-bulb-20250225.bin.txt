@@ -1,0 +1,5 @@
+eWeLink-C3009-EW-E14-BWL2-bulb-20250225.bin is version 1.1.1 of the newer fw below for same device
+
+eWeLink-C3009-EW-E14-BWL2-bulb_(FWLED-CK0205PWM-LIGHT-BL602L_v1.5.0).bin
+
+user1.1024.new.2.bin is the OTA file to v1.5.0
