@@ -1,0 +1,6 @@
+V380-E27_Bulb-Camera_T25S80.bin
+https://community.home-assistant.io/t/v380s-camera/50446/35
+
+
+A9_Mini_Spy_Cam_Neo_C74014_T25S80.bin
+https://www.elektroda.com/rtvforum/topic4074636.html
