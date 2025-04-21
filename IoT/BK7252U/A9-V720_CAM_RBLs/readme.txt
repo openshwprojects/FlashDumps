@@ -1,0 +1,1 @@
+It is not known if these are for BK7252U or BK7252N or a mixture. BK7252U is assumed.
