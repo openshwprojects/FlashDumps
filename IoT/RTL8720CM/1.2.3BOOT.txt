@@ -1,0 +1,78 @@
+== Rtl8710c IoT Platform ==
+Chip VID: 5, Ver: 3
+ROM Version: v3.0
+
+== Boot Loader ==
+Aug 31 2021:15:42:24
+
+Boot Loader <==
+
+== RAM Start ==
+Build @ 15:35:46, Jun 17 2024
+
+$8710c>interface 0 is initialized
+interface 1 is initialized
+
+#######################################
+	TP-LINK IoT Platform P110M(EU)
+	Software version: 1.2.3 Build 240617 Rel.153525
+	Hardware version: 1.0
+	System boot reason: hardware
+#######################################
+[Config] Matter Init: magic: 539101225
+[MatterModule] Device 16908289 register done
+
+Initializing WIFI ...
+WIFI initialized
+
+WIFI Mode No Need To Change: STA -->STA[BLE] Server Init Nums: 2 
+BT BUILD Date: Jun 17 2024, 15:35:36 
+BT RESET LOG...
+BT Reset ok
+bt_iqk_efuse_valid: has data
+
+hci_tp_phy_efuse[0]=0,
+bt_dump_iqk:    DUMP,
+the IQK_xx  data is 0xe7,
+the IQK_yy  data is 0x5,
+the QDAC   data is 0x19,
+the IDAC   data is 0x22,
+the QDAC2  data is 0x1c,
+the IDAC2  data is 0x21,
+hci_read_rom_check: rom_version 0x0003, bt_hci_chip_id 0x0004
+BT ADDRESS: f8:17:2d:c3:44:5f
+
+ WRITE  physical FLATK=tx_flatk=ffff 
+We use fw_buf = 0x6007d1e8, fw_len = 0x1dbc, config_buf = 0x6007efb0, config_len = 0x32
+Set baudrate to 921600
+
+hci_tp_config:BT INIT success 7
+Start upperStack
+dct_init success
+dct_init2 success
+dct_register_module matter_kvs1_1 success
+dct_register_module matter_kvs1_2 success
+dct_register_module matter_kvs1_3 success
+dct_register_module matter_kvs1_4 success
+dct_register_module matter_kvs1_5 success
+dct_register_module matter_kvs1_6 success
+dct_register_module matter_kvs1_7 success
+dct_register_module matter_kvs1_8 success
+dct_register_module matter_kvs1_9 success
+dct_register_module matter_kvs1_10 success
+dct_register_module matter_kvs1_11 success
+dct_register_module matter_kvs1_12 success
+dct_register_module matter_kvs1_13 success
+dct_register_module2 matter_kvs2_1 success
+dct_register_module2 matter_kvs2_2 success
+dct_register_module2 matter_kvs2_3 success
+dct_register_module2 matter_kvs2_4 success
+dct_register_module2 matter_kvs2_5 success
+dct_register_module2 matter_kvs2_6 success
+dct_register_module2 matter_kvs2_7 success
+dct_register_module2 matter_kvs2_8 success
+checkExist key=reboot-count found.
+checkExist key=total-hours found.
+checkExist key=boot-reason found.
+checkExist key=regulatory-location found.
+checkExist key=location-capability found.

@@ -1,0 +1,67 @@
+<RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:2, flash_speed idx:0
+calibration_result:[1:7:11][7:d] 
+calibration_ <RTL8195A>ROM:[V0.1]
+FLASHRATE:4
+BOOT TYPE:0 XTAL:40000000
+IMG1 DATA[1168:10002000]
+IMG1 ENTRY[8000541:100021ef]
+IMG1 ENTER
+CHIPID[000000f6]
+read_mode idx:2, flash_speed idx:0
+calibration_result:[1:11:9][3:d] 
+calibration_result:[2:13:7][1:d] 
+calibration_result:[3:1:1][1:1] 
+calibration_ok:[2:13:7] 
+FLASH CALIB[NEW OK]
+OTA2 ADDR[80d0000]
+OTAx SELE[fffffffc]
+OTA1 USE
+IMG2 DATA[0x80985e0:6684:0x10005000]
+IMG2 SIGN[RTKWin(10005008)]
+IMG2 ENTRY[0x10005000:0x80d017d]
+===== Enter Image 2 ====
+System_Init1
+OSC8M: 8390004 
+boot reason: 0 
+System_Init2
+
+11111111111111111111111111
+interface 0 is initialized
+interface 1 is initialized
+
+Initializing WIFI ...[01-01
+LDO 18:12:15 TU Mode, BD_IYA Err][onlinfo: 0 
+ne_log_serv.c:280] log stats ufread fail.
+[
+01-01 18:12LDO Mode, BD:15 TUYA De_Info: 0 
+bug][online_log_serv.c:540] log serv init success
+[01-01 18:12:15 TUYA Debug][tuya_device.c:22] < TUYA IOT SDK V:2.0.0 BS:30.07_PT:2.2_LAN:3.3_CAD:1.0.2_CD:1.0.0 >
+< tuya_iot_lib BUILD AT:2019_10_31_21_06_38 BY tuya_iot_team AT 8710_2M >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LITTLE_END:1 TLS_MODE:2 ENABLE_LOCAL_LINKAGE:0 ENABLE_CLOUD_OPERATION:0 ENABLE_SUBDEVICE:0 ENABLE_ENGINEER_TO_NORMAL:0 OPERATING_SYSTEM:2 ENABLE_SYS_RPC:0 TY_SECURITY_CHIP:0 RELIABLE_TRANSFER:RELIABLE_TRANSFER ENABLE_LAN_ENCRYPTION:1 ENABLE_SIGMESH:0 >
+
+[01-01 18:12:15 TUYA Debug][tuya_device.c:23] rtlbn_tls_common_9600:1.0.5
+[01-01 18:12:15 TUYA Notice][simple_flash.c:430] key_addr: 0x1eb000   block_sz 4096
+[01-01 18:12:15 TUYA Notice][simple_flash.c:498] get key:
+0xf8 0xa4 0x7e 0xca 0x9a 0x9c 0xb6 0x60 0xad 0x37 0x9d 0x9 0x7c 0xf2 0x9c 0xac 
+
+WIFI initialized
+
+init_thread(55), Available heap 0x11328[01-01 18:12:15 TUYA Notice][tuya_uart.c:125] 1   9600
+[01-01 18:12:15 TUYA Notice][tuya_main.c:369] mf_init succ
+[01-01 18:12:15 TUYA Notice][uart_common.c:3598] uart baud rate:9600----firmware key:keym5sjxrqcryptn
+[01-01 18:12:15 TUYA Notice][tuya_uart.c:125] 0   9600
+[01-01 18:12:15 TUYA Notice][uart_common.c:3695] uart_task_init ok
+[01-01 18:12:15 TUYA Notice][uart_common.c:602] send jump_pack
+[01-01 18:12:18 TUYA Notice][uart_common.c:2797] heart timer out clear all
+[01-01 18:12:18 TUYA Notice][uart_common.c:602] send jump_pack
+[01-01 18:12:21 TUYA Notice][uart_common.c:2797] heart timer out clear all
+[01-01 18:12:21 TUYA Notice][uart_common.c:602] send jump_pack
+[01-01 18:12:24 TUYA Notice][uart_common.c:2797] heart timer out clear all
+[01-01 18:12:24 TUYA Notice][uart_common.c:602] send jump_pack
