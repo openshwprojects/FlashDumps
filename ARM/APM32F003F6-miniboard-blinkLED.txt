@@ -1,0 +1,4 @@
+Factory dump from APM32F003F6 MINI Board - blink LED demo.
+https://geehy.com/design/hardware_detail/45
+
+The APM32F003F6 MINI Board is a minimal system demonstration and development platform for the basic APM32F0xx series MCU. It reserves essential peripherals like external IO, buttons, serial ports, and power interfaces. Powered by the APM32F003F6P6 MCU, which is built on the Arm Cortex-M0+ core and operates at 48MHz, this board provides 32KB of Flash memory. Additionally, its SWD interface supports user simulation and program downloads.
