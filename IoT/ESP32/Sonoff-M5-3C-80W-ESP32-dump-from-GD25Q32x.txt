@@ -1,0 +1,1 @@
+This is a matter device and has locked bootloader
