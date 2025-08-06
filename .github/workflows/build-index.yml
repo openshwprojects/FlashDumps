@@ -7,21 +7,20 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Install Mono + msbuild
-      run: |
-        sudo apt update
-        sudo apt install -y mono-complete
+    - name: Set up MSBuild
+      uses: microsoft/setup-msbuild@v1
 
     - name: Build old-style C# Analyzer.csproj
       run: msbuild Analyzer/Analyzer.csproj /p:Configuration=Release
 
-    - name: Run Analyzer.exe (Mono)
-      run: mono Analyzer/bin/Release/Analyzer.exe
+    - name: Run Analyzer.exe
+      run: Analyzer\bin\Release\Analyzer.exe
 
     - name: Upload index.html to GitHub Pages
       uses: actions/upload-pages-artifact@v3
@@ -30,7 +29,7 @@ jobs:
 
   deploy:
     needs: build
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     permissions:
       pages: write
       id-token: write
