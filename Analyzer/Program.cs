@@ -8,6 +8,7 @@ class Program
 {
     static string targetDir;
 
+
     static void Main()
     {
         string root = Directory.GetCurrentDirectory();
