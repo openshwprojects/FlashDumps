@@ -46,21 +46,28 @@ public class RBL
     }
 
 
+    private static string ReadAsciiZ(byte[] data, int offset, int maxLength)
+    {
+        int end = Array.IndexOf<byte>(data, 0, offset, maxLength);
+        if (end < 0) end = offset + maxLength;
+        return Encoding.ASCII.GetString(data, offset, end - offset);
+    }
 
     public string name
     {
-        get { return Encoding.ASCII.GetString(data, 12, 16).TrimEnd('\0'); }
+        get { return ReadAsciiZ(data, 12, 16); }
     }
 
     public string version
     {
-        get { return Encoding.ASCII.GetString(data, 28, 24).TrimEnd('\0'); }
+        get { return ReadAsciiZ(data, 28, 24); }
     }
 
     public string sn
     {
-        get { return Encoding.ASCII.GetString(data, 52, 24).TrimEnd('\0'); }
+        get { return ReadAsciiZ(data, 52, 24); }
     }
+
 
     public uint crc32
     {
@@ -102,13 +109,33 @@ public class RBL
                 byte[] block = new byte[SIZE];
                 Array.Copy(input, i, block, 0, SIZE);
                 RBL rbl = new RBL(block);
+                Console.WriteLine("===================");
+                Console.WriteLine("RBL name: " + rbl.name);
+                Console.WriteLine("RBL ver: " + rbl.version);
+                Console.WriteLine("RBL sn: " + rbl.sn);
+                Console.WriteLine("RBL size_package: " + rbl.size_package);
+                Console.WriteLine("RBL size_raw: " + rbl.size_raw);
                 Console.WriteLine("RBL time " + rbl.timestampDT);
+                rbl.setFullData(input, i);
                 list.Add(rbl);
             }
         }
         return list;
     }
 
+    private void setFullData(byte[] input, int ofs)
+    {
+        int rem_size = input.Length - ofs;
+        if(rem_size < this.size_package)
+        {
+            Console.WriteLine("Not enough size to extract! Wants " + size_package + " has " + rem_size+"");
+            return;
+        }
+        uint saveSize = size_package;
+        data = new byte[saveSize];
+        Array.Copy(input, ofs, data, 0, saveSize);
+
+    }
 }
 
 
