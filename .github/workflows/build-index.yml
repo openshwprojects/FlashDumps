@@ -12,16 +12,16 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
 
-    - name: Setup .NET
-      uses: actions/setup-dotnet@v4
-      with:
-        dotnet-version: '6.0.x'
+    - name: Install Mono + msbuild
+      run: |
+        sudo apt update
+        sudo apt install -y mono-complete
 
-    - name: Build Analyzer
-      run: dotnet build Analyzer/Analyzer.csproj
+    - name: Build old-style C# Analyzer.csproj
+      run: msbuild Analyzer/Analyzer.csproj /p:Configuration=Release
 
-    - name: Run Analyzer to generate index.html
-      run: dotnet run --project Analyzer/Analyzer.csproj
+    - name: Run Analyzer.exe (Mono)
+      run: mono Analyzer/bin/Release/Analyzer.exe
 
     - name: Upload index.html to GitHub Pages
       uses: actions/upload-pages-artifact@v3
