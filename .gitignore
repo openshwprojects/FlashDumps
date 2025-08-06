@@ -1,6 +1,7 @@
 *.bak
 
 
+*/output/*
 
 */bin/*
 */obj/*
