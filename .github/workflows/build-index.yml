@@ -17,11 +17,11 @@ jobs:
       with:
         dotnet-version: '6.0.x'
 
-    - name: Restore and build Analyzer
-      run: dotnet build Analyzer.csproj
+    - name: Build Analyzer
+      run: dotnet build Analyzer/Analyzer.csproj
 
     - name: Run Analyzer to generate index.html
-      run: dotnet run --project Analyzer.csproj
+      run: dotnet run --project Analyzer/Analyzer.csproj
 
     - name: Upload index.html to GitHub Pages
       uses: actions/upload-pages-artifact@v3

@@ -7,28 +7,24 @@ class Program
 {
     static void Main()
     {
-        string repoRoot = Directory.GetCurrentDirectory();
-        //repoRoot = "E:/GIT/FlashDumps";
-        string[] binFiles = Directory.GetFiles(repoRoot, "*.bin", SearchOption.AllDirectories);
-        List<string> filtered = new List<string>();
+        string root = Directory.GetCurrentDirectory();
+        string[] files = Directory.GetFiles(Path.Combine(root, ".."), "*.bin", SearchOption.AllDirectories);
+        List<string> list = new List<string>();
 
-        foreach (string file in binFiles)
+        foreach (string file in files)
         {
-            string rel = file.Replace(repoRoot + Path.DirectorySeparatorChar, "").Replace("\\", "/");
+            string rel = file.Replace(root + "/../", "").Replace("\\", "/");
             if (rel.StartsWith("IoT/BK"))
-            {
-                filtered.Add(rel);
-            }
+                list.Add(rel);
         }
+
         StringBuilder sb = new StringBuilder();
         sb.AppendLine("<html><body><h1>BIN File Index</h1><ul>");
-        foreach (string f in filtered)
-        {
+        foreach (string f in list)
             sb.AppendFormat("<li><a href=\"{0}\">{0}</a></li>\n", f);
-        }
         sb.AppendLine("</ul></body></html>");
 
-        Directory.CreateDirectory("output");
-        File.WriteAllText("output/index.html", sb.ToString());
+        Directory.CreateDirectory("../output");
+        File.WriteAllText("../output/index.html", sb.ToString());
     }
 }
