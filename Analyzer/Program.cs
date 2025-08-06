@@ -15,6 +15,8 @@ class Program
 
         Directory.CreateDirectory("../output");
 
+        Console.WriteLine("Work root: " + root + "!");
+
         foreach (string file in files)
         {
             string rel = file.Replace(root + "/../", "").Replace("\\", "/");
@@ -76,7 +78,16 @@ class Program
         }
 
         sb.AppendLine("</body></html>");
-        File.WriteAllText("../output/grouped.html", sb.ToString());
+        string target = "../output/grouped.html";
+        File.WriteAllText(target, sb.ToString());
+        if(File.Exists(target))
+        {
+            Console.WriteLine("Raport saved!");
+        }
+        else
+        {
+            Console.WriteLine("Failed to save raport!");
+        }
     }
 
 
