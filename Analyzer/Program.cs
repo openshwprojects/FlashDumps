@@ -33,7 +33,7 @@ class Program
     }
     public static void processBekenDumps(List<string> list, string root)
     {
-        const int chunkSize = 0x11000;
+        const int chunkSize = 0x1000;
         Dictionary<string, List<string>> groups = new Dictionary<string, List<string>>();
         SHA256 sha = SHA256.Create();
 
@@ -64,6 +64,7 @@ class Program
                 Console.WriteLine("  " + file);
             Console.WriteLine();
         }
+        Console.WriteLine("Total " + groupIndex + " groups");
 
         generateHtmlReport(groups);
     }
