@@ -33,21 +33,39 @@ class Program
     }
     public static void processBekenDumps(List<string> list, string root)
     {
-        const int chunkSize = 0x1000;
+        int chunkSize = -1;
         Dictionary<string, List<string>> groups = new Dictionary<string, List<string>>();
         SHA256 sha = SHA256.Create();
 
         foreach (string relPath in list)
         {
             string fullPath = Path.Combine(root, "..", relPath);
-            byte[] buffer = new byte[chunkSize];
-
-            using (FileStream fs = new FileStream(fullPath, FileMode.Open, FileAccess.Read))
+            byte[] buffer;
+            if(chunkSize == -1)
             {
-                int bytesRead = fs.Read(buffer, 0, chunkSize);
-                if (bytesRead < chunkSize)
-                    Array.Resize(ref buffer, bytesRead);
+                buffer = File.ReadAllBytes(fullPath);
             }
+            else
+            {
+                buffer = new byte[chunkSize];
+                using (FileStream fs = new FileStream(fullPath, FileMode.Open, FileAccess.Read))
+                {
+                    int bytesRead = fs.Read(buffer, 0, chunkSize);
+                    if (bytesRead < chunkSize)
+                        Array.Resize(ref buffer, bytesRead);
+                }
+            }
+            RBL.findIn(buffer);
+            //int ofs = 69530;
+            // check is RBL
+            //if (buffer.Length > ofs + 5 && Encoding.ASCII.GetString(buffer, ofs, 3) == "RBL")
+            //{
+            //    Console.WriteLine("RBL at 69530 " + fullPath + "");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("No RBL at 69530 in " + fullPath +  "");
+            //}
 
             string hash = BitConverter.ToString(sha.ComputeHash(buffer)).Replace("-", "");
 
