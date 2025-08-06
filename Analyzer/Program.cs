@@ -6,16 +6,20 @@ using System.Security.Cryptography;
 
 class Program
 {
+    static string targetDir;
+
     static void Main()
     {
         string root = Directory.GetCurrentDirectory();
-        root = root.Replace("\\bin\\Debug", "");
+        root = root.Replace("\\Analyzer\\bin\\Debug", "");
         string[] files = Directory.GetFiles(Path.Combine(root, ".."), "*.bin", SearchOption.AllDirectories);
         List<string> list = new List<string>();
 
-        Directory.CreateDirectory("../output");
+        targetDir = Path.Combine(root, "output");
+        Directory.CreateDirectory(targetDir);
 
         Console.WriteLine("Work root: " + root + "!");
+        Console.WriteLine("Target dir: " + targetDir + "!");
 
         foreach (string file in files)
         {
@@ -78,7 +82,8 @@ class Program
         }
 
         sb.AppendLine("</body></html>");
-        string target = "../output/grouped.html";
+        string target = Path.Combine(targetDir,"index.html");
+        Console.WriteLine("Raport path "+target);
         File.WriteAllText(target, sb.ToString());
         if(File.Exists(target))
         {
