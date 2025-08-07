@@ -13,21 +13,25 @@ class Program
     {
         string root = Directory.GetCurrentDirectory();
         root = root.Replace("\\Analyzer\\bin\\Debug", "");
-        string[] files = Directory.GetFiles(Path.Combine(root, ".."), "*.bin", SearchOption.AllDirectories);
+        string bk = Path.Combine(root, "IoT/");
+        string[] dirs = Directory.GetDirectories(bk, "BK*", SearchOption.TopDirectoryOnly);
         List<string> list = new List<string>();
+        for (int i = 0; i < dirs.Length; i++)
+        {
+            string[] files = Directory.GetFiles(dirs[i], "*.bin", SearchOption.AllDirectories);
+            foreach (string file in files)
+            {
+                string rel = file.Replace(root + "/../", "").Replace("\\", "/");
+                list.Add(rel);
+            }
+        }
+
 
         targetDir = Path.Combine(root, "output");
         Directory.CreateDirectory(targetDir);
 
         Console.WriteLine("Work root: " + root + "!");
         Console.WriteLine("Target dir: " + targetDir + "!");
-
-        foreach (string file in files)
-        {
-            string rel = file.Replace(root + "/../", "").Replace("\\", "/");
-            if (rel.Contains("IoT/BK"))
-                list.Add(rel);
-        }
 
         processBekenDumps(list, root);
     }
