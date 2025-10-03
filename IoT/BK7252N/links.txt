@@ -1,0 +1,16 @@
+Cam_INO-A13N-V2.2_readResult_BK7252N_QIO_7252n_square_2025-28-9-17-39-25.bin
+Cam_readResult_BK7252N_QIO_7252n_2025-28-9-17-10-56.bin
+
+https://www.elektroda.com/rtvforum/viewtopic.php?p=21703243#21703243
+
+
+------------------------
+
+Pinmei_A9_BK7252N_BKFIL.bin
+Pinmei_A9_BK7252N_efuse.bin
+Pinmei_A9_BK7252N_readResult_BK7231N_QIO_2025-21-4-21-06-24.bin
+Pinmei_A9_BK7252N_readResult_BK7252_UA_2025-21-4-10-45-28.bin
+Pinmei_A9_BK7252N_rom.bin
+Pinmei_A9_BK7252N_SPI_Neo_EB6015.bin
+
+https://www.elektroda.com/rtvforum/topic4118499.html
