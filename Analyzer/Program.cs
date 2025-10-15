@@ -59,7 +59,13 @@ class Program
                         Array.Resize(ref buffer, bytesRead);
                 }
             }
-            RBL.findIn(buffer);
+            string hash = "";
+            List<RBL> rbls = RBL.findIn(buffer);
+            RBL boot = RBL.find(rbls, "bootloader");
+            if (boot!=null)
+            {
+                hash = boot.timestampDT.ToString();
+            }
             //int ofs = 69530;
             // check is RBL
             //if (buffer.Length > ofs + 5 && Encoding.ASCII.GetString(buffer, ofs, 3) == "RBL")
@@ -71,7 +77,7 @@ class Program
             //    Console.WriteLine("No RBL at 69530 in " + fullPath +  "");
             //}
 
-            string hash = BitConverter.ToString(sha.ComputeHash(buffer)).Replace("-", "");
+           // hash = BitConverter.ToString(sha.ComputeHash(buffer)).Replace("-", "");
 
             if (!groups.ContainsKey(hash))
                 groups[hash] = new List<string>();

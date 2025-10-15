@@ -123,6 +123,18 @@ public class RBL
         return list;
     }
 
+    internal static RBL find(List<RBL> rbls, string v)
+    {
+        if (rbls == null)
+            return null;
+        for(int i = 0; i < rbls.Count; i++)
+        {
+            if (rbls[i].name == v)
+                return rbls[i];
+        }
+        return null;
+    }
+
     private void setFullData(byte[] input, int ofs)
     {
         int rem_size = input.Length - ofs;
