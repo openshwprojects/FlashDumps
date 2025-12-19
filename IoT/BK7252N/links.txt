@@ -14,3 +14,21 @@ Pinmei_A9_BK7252N_rom.bin
 Pinmei_A9_BK7252N_SPI_Neo_EB6015.bin
 
 https://www.elektroda.com/rtvforum/topic4118499.html
+
+
+------------------------
+
+CY365_Car_IP_EEE-249530-GDVHL_1.7.0_efuse.bin
+CY365_Car_IP_EEE-249530-GDVHL_1.7.0_rom.bin
+CY365_Car_IP_EEE-249530-GDVHL_1.7.0.bin
+
+https://www.elektroda.com/rtvforum/topic4156145.html
+
+
+------------------------
+
+XCThings_Linklemo_A9_INO-IPC-V2.3_(BluePCB)_efuse.bin
+XCThings_Linklemo_A9_INO-IPC-V2.3_(BluePCB)_rom.bin
+XCThings_Linklemo_A9_INO-IPC-V2.3_(BluePCB).bin
+
+https://www.elektroda.com/rtvforum/viewtopic.php?p=21708747#21708747
