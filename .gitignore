@@ -7,6 +7,8 @@
 */obj/*
 */.vs/*
 .vs/*
-
-
-
+*renametest*
+*.json  
+*.ps1
+*.py
+*.zip
