@@ -1,0 +1,232 @@
+
+V:BK7231N_1.0.1
+REG:cpsr     spsr     r13      r14
+SVC:000000D3          00401C1C 000033AC
+IRQ:000000d2 00000010 00401e0c 4a2b100a 
+FIR:000000d1 00000010 00401ffc c975da1c 
+SYS:000000df          0040192c 00000158 
+ST:00000000
+J 0x10000
+bk_misc_init_start_type 0 0
+prvHeapInit-start addr:0x410958, size:128680
+[Flash]id:0xeb6015
+[01-01 18:12:15 TUYA I][lr:0xa081d] mqc app init ...
+[01-01 18:12:15 TUYA I][lr:0xab803] thread_create name:sys_timer,stackDepth:4096,totalstackDepth:4096,priority:5
+[01-01 18:12:15 TUYA D][lr:0xab68f] Thread:sys_timer Exec Start. Set to Running Stat
+[01-01 18:12:15 TUYA I][lr:0xab803] thread_create name:cmmod,stackDepth:4096,totalstackDepth:8192,priority:4
+[01-01 18:12:15 TUYA D][lr:0xa0737] mq_pro:5 cnt:1
+[01-01 18:12:15 TUYA D][lr:0xa0737] mq_pro:31 cnt:2
+[01-01 18:12:15 TUYA D][lr:0xcfb87] svc online log init success
+[01-01 18:12:15 TUYA E][lr:0xc8481] logseq empty
+[01-01 18:12:15 TUYA I][lr:0xab803] thread_create name:wk_th-0,stackDepth:5120,totalstackDepth:13312,priority:3
+[01-01 18:12:15 TUYA E][lr:0xaf6f1] wd_protected_read fails gw_bi -23
+[01-01 18:12:15 TUYA D][lr:0xaf963] gw base read finish:-23
+[01-01 18:12:15 TUYA D][lr:0xcd743] ty bt cmmod regist ok:1
+dev id key: 16
+d4 1d 8c d9 8f 00 b2 04 e9 80 09 98 ec f8 42 7e 
+[PLATFORM DEBUG]bt_port_init
+[01-01 18:12:1ble mac:50-8b-b9-d9-48-5 TUYA N][lr:0x9cd0d] b63
+!!!!!!init_type=0
+le sdk re_inited
+[01-01[ble_appm_send_gapm_res 18:12:15 TUYA D][lr:0xet_cmd]
+!!!!!!init_type=1
+llm_init:312
+ce1a[gapm_cmp_evt_handler] 9] bt active init
+[01-conidx:0,operation:0x1,01 18:12:15 TUYA N][lr:status:0x0
+cmd->addr.a0xcd831] ty bt sdk init ddr[5] :0
+!!!!!!init_tsuccess finish
+[01-01 ype=2
+[gapm_cmp_evt_ha18:12:15 TUYA D][lr:0x5ndler] conidx:0,operati9ab3] < TUYA IOT SDK V:on:0x3,status:0x0
+gapm2.3.3 BS:40.00_PT:2.2_L_cmp_evt:GAPM_SET_DEV_CAN:3.4_CAD:1.0.5_CD:1.0.ONFIG
+gapm_cmp_evt:wai0 >
+< BUILD AT:2022_12t GAPM_GEN_RAND_NB
+_22[gapm_cmp_evt_handler] _14_55_08 BY ci_manage conidx:0,operation:0x1aFOR ty_iot_sdk AT bk723,status:0x0
+gapm_cmp_e1n >
+IOT DEFS < WIFI_Gvt:GAPM_GEN_RAND_NB
+W:[gapm_cmp_evt_handler] c1 DEBUG:1 KV_FILE:0 SHUonidx:0,operation:0x1a,TDOWN_MODE:0 LITTLE_ENDstatus:0x0
+gapm_cmp_ev:1 TLS_MODE:2 ENABLE_CLt:GAPM_GEN_RAND_NB
+[gaOUD_OPERATION:0 OPERATIpm_cmp_evt_handler] conNG_SYSTEM:2 ENABLE_SYS_idx:0,operation:0x28,staRPC:0 RELIABLE_TRANSFERtus:0x0
+gapm_cmp_evt:B:0 ENABLE_LAN_ENCRYPTIOLE_STACK_OK
+[PLATFORM N:1 ENABLE_LAN_LINKAGE:NOTICE]STACK INIT OK
+b0 ENABLE_LAN_DEV:0 >
+le create new db
+ble_e
+[01-01 18:12:15 TUYA Dnv->start_hdl = 0x10
+[][lr:0x59abd] oem_bk7231PLATFORM NOTICE]CREATE n_dctrl_switch:1.3.5
+DB OK
+[01-01 18:12:15 TUYA N][lr:0x59ac7] firmware compiled at Jan 31 2023 15:38:12
+[PLATFOadv_state:1
+[gapm_cmp_Rp_evt_handler] conidx:evt_handler] conidx:0,o0,operation:0x1b,status:peration:0x1b,status:0x0x0
+0
+adv_actv_idx:0,tx_pwr:0
+[PLATFORM DEBUG]UNKNOW EVENT:17
+[gapm_cmp_evt_handler] conidx:0,operation:0xa0,status:0x0
+[appm_adv_fsm_next] cur adv_state:1
+adv_state:2
+[ble_appm[01-01 18:12:15 TUYA N]_set_adv_data]set data
+[lr:0xc64a3] key_addr: end adv_state:2
+[PLATF0x1ee000   block_sz 409ORM DEBUG]UNKNOW EVENT:6
+16
+[gapm_cmp_evt_handler] conidx:0,operation:0xa9,status:0x0
+[appm_adv_fsm_next] cur adv_state:2
+adv_state:3
+end adv_state:3
+[PLATF[01-01 18:12:15 TUYA N]ORM DEBUG]UNKNOW EVENT:[lr:0xc6573] get key:
+16
+[gapm_cmp_evt_handl0xdb 0xe5 0xf5 0xde 0x2er] conidx:0,operation:a 0x14 0x41 0x6a 0xbe 00xaa,status:0x0
+[appm_x3e 0xfa 0x8d 0xb6 0x43 adv_fsm_next] cur adv_s0xbe 0xf8 
+tate:3
+adv_state:6
+[ble_appm_start_advertising]
+end adv_state:6
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[gapm_cmp_evt_handler] conidx:0,operation:0xa4,status:0x0
+[appm_adv_fsm_next] cur adv_state:6
+adv_state:7
+end adv_state:7
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[01-01 18:12:15 TUYA I][lr:0xab803] thread_create name:mf_test,stackDepth:5120,totalstackDepth:18432,priority:4
+[load]bandgap_calm=0x71->0x31,vddig=4->5
+IP Rev: ebc6695
+[bk]tx_txdesc_flush
+[FUNC]intc_init
+[FUNC]calibration_main
+gpio_level=1,txpwr_state=15
+get rfcali_mode:1
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+calibration_main over
+temp in flash is:330
+xtal in flash is:38
+[FUNC]func_init_extended OVER
+Version:
+tcp_port:62642
+app_init finished
+[01-01 18:12:15 TUYA N][lr:0x58f75] mf_init succ
+[01-01 18:12:15 TUYA N][lr:0x59a35] pConfig = {rl1_lv:1,netled_lv:0,bt_type:0,bt1_pin:10,rand_dpid:18,net_trig:4,cd_flag2:1,led_dp:15,jv:1.1.0,backlit_select:1,backlit_io_lv:0,nety_led:0,backlit_io_pin:9,netled_pin:23,total_stat:2,bt1_lv:0,reset_t:5,rl2_lv:1,ch_flag1:1,inch_dp:19,module:CB3S,dctrl_select:0,ch_cddpid1:7,init_conf:14,rl2_pin:24,light_status_select:0,zero_select:0,bt2_pin:8,ch_cddpid2:8,backlit_dp:16,cyc_dpid:17,ch_num:2,bt2_lv:0,rl1_pin:14,netn_led:0,ch_dpid1:1,ch_dpid2:2,crc:85,}
+[01-01 18:12:16 TUYA N][lr:0x5b079] channel init success
+[01-01 18:12:16 TUYA N][lr:0x58fe1] current product ssid name:tuya_mdev_test1
+[sa_sta]MM_RESET_REQ
+[bk]tx_txdesc_flush
+[sa_sta]ME_CONFIG_REQ
+[sa_sta]ME_CHAN_CONFIG_REQ
+[sa_sta]MM_START_REQ
+sizeof(wpa_supplicant)=928
+hapd_intf_add_vif,type:2, s:0, id:0
+wpa_dInit
+enter low level!
+mac 50:8b:b9:d9:48:62
+leave low level!
+net_wlan_add_netif done!, vif_idx:0
+scan SSID: 74 75 79 61 5F 6D 64 65 76 5F 74 65 73 74 31 
+wpa_supplicant_req_scan
+Setting scan[retry16] request: 0.000000 sec
+wpa_supplicant_scan
+wpa_supplicant_scan 866
+wpa_drv_scan
+ht in scan
+scan_start_req_handler
+wpa_driver_scan_start_cb
+wpa_driver_scan_cb
+Scan completed in 2.340000 seconds
+[PLATFORM ERROR]scan err
+[01-01 18:12:18 TUYA N][lr:0xb4a33] wifi soc init. pid:key5ckdnys3pqgec firmwarekey:key5ckdnys3pqgec ver:1.3.5
+[PLATFORM NOTICE]bk_rst:0 tuya_rst:0
+[01-01 18:12:18 TUYA N][lr:0xaec1b] Last reset reason: 0
+[01-01 18:12:18 TUYA N][lr:0xaecf7] serial_no:508bb9d94862
+rw_ieee80211_set_country code:
+code: CN
+channel: 1 - 13
+mode: MANUAL
+bk_wlan cca closed
+[01-01 18:12:18 TUYA N][lr:0xaed35] gw_cntl.gw_wsm.stat:0
+[01-01 18:12:18 TUYA N][lr:0xb323d] gw_cntl->gw_wsm.nc_tp:1
+[01-01 18:12:18 TUYA N][lr:0xb3245] gw_cntl->gw_wsm.md:0
+[01-01 18:12:18 TUYA N][lr:0xaee91] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:18 TUYA N][lr:0xaee9f] gw_cntl.gw_if.product_key:key5ckdnys3pqgec, input:key5ckdnys3pqgec
+[01-01 18:12:18 TUYA N][lr:0xaeea9] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:18 TUYA N][lr:0xaeeb9] gw_cntl.gw_if.firmware_key:key5ckdnys3pqgec, input:key5ckdnys3pqgec
+[01-01 18:12:18 TUYA I][lr:0xab803] thread_create name:health_monitor,stackDepth:1536,totalstackDepth:19968,priority:5
+[01-01 18:12:18 TUYA N][lr:0xcd8af] ty bt upd product:key5ckdnys3pqgec 1
+[01-01 18:12:18 TUYA N][lr:0x5a607] init cfg is null!!
+[01-01 18:12:18 TUYA N][lr:0x5aaa9] light mode is null!!
+[01-01 18:12:18 TUYA N][lr:0x5c351] Channel [0] config !!!
+[01-01 18:12:18 TUYA N][lr:0x5c31b] IO - relay[0]:	pin-14	type high
+[01-01 18:12:18 TUYA N][lr:0x5c31b] IO - button[0]:	pin-10	type low
+[01-01 18:12:18 TUYA N][lr:0x5c351] Channel [1] config !!!
+[01-01 18:12:18 TUYA N][lr:0x5c31b] IO - relay[1]:	pin-24	type high
+[01-01 18:12:18 TUYA N][lr:0x5c31b] IO - button[1]:	pin-8	type low
+[01-01 18:12:18 TUYA N][lr:0x5c31b] IO - wifi_stat:	pin-23	type low
+[01-01 18:12:18 TUYA N][lr:0x5c31b] IO - backlit:	pin-9	type low
+[01-01 18:12:18 TUYA N][lr:0x5bf09] ch sec is null!!
+[01-01 18:12:18 TUYA E][lr:0x5808d] input over range
+[01-01 18:12:18 TUYA E][lr:0x5bf21] tuya_inch_func_enable_or_disable failed op_ret:-2
+[01-01 18:12:18 TUYA E][lr:0x56733] OPRT_INVALID_PARM
+[01-01 18:12:18 TUYA E][lr:0x5b603] upload_channel_dp_stat op_ret:-1
+[01-01 18:12:18 TUYA E][lr:0x59de1] dctrl upload_channel_dp_stat err: -1 
+[01-01 18:12:18 TUYA N][lr:0x5bf09] ch sec is null!!
+[01-01 18:12:18 TUYA E][lr:0x5808d] input over range
+[01-01 18:12:18 TUYA E][lr:0x5bf21] tuya_inch_func_enable_or_disable failed op_ret:-2
+[01-01 18:12:18 TUYA E][lr:0x56733] OPRT_INVALID_PARM
+[01-01 18:12:18 TUYA E][lr:0x5b603] upload_channel_dp_stat op_ret:-1
+[01-01 18:12:18 TUYA E][lr:0x59de1] dctrl upload_channel_dp_stat err: -1 
+[01-01 18:12:18 TUYA I][lr:0xab803] thread_create name:timer_task,stackDepth:4096,totalstackDepth:24064,priority:3
+[01-01 18:12:18 TUYA N][lr:0x571e9] wd_common_read failed op_ret:-6
+[01-01 18:12:18 TUYA N][lr:0x571e9] wd_common_read failed op_ret:-6
+[01-01 18:12:18 TUYA N][lr:0x571e9] wd_common_read failed op_ret:-6
+[01-01 18:12:18 TUYA N][lr:0x5827d] start tuya_inch_time_init..
+[01-01 18:12:18 TUYA N][lr:0x582fb] init read inch info is null!
+[01-01 18:12:18 TUYA N][lr:0x5b33d] backlit memory stat is null!!
+[01-01 18:12:18 TUYA N][lr:0x5b395] memory backlit_stat is not exist! this maybe a new device!
+[01-01 18:12:18 TUYA N][lr:0x59efd] device_init ok  free_mem_size:59144
+wpa_supplicant_req_scan
+Setting scan[retry16] request: 0.000000 sec
+wpa_supplicant_scan
+wpa_supplicant_scan 866
+wpa_drv_scan
+ht in scan
+scan_start_req_handler
+wpa_driver_scan_start_cb
+RSSI: ac:f8:cc:69:4d:c9  -60 -> -58
+RSSI: e0:d3:62:32:3b:25  -84 -> -83
+wpa_driver_scan_cb
+Scan completed in 2.342000 seconds
+net_wlan_remove_netif done!, vif_idx:0
+Cancelling scan request
+scanu completed
+Soft_AP_start
+[saap]MM_RESET_REQ
+[bk]tx_txdesc_flush
+[saap]ME_CONFIG_REQ
+[saap]ME_CHAN_CONFIG_REQ
+[saap]MM_START_REQ
+apm start with vif:0
+me_set_ps_disable:842 0 0 1 0 0
+------beacon_int_set:100 TU
+set_active param 0
+[msg]APM_STOP_CFM
+update_ongoing_1_bcn_update
+hal_machw_enter_monitor_mode
+[01-01 18:12:21 TUYA N][lr:0x59851] wifi stat is 1 
+[01-01 18:12:21 TUYA N][lr:0x9cbe3] update bound stat:0
+dev id key: 16
+23 6c d3 95 1b bf ed 31 4d 87 65 79 28 23 35 10 
+[PLATFORM DEBUG]bt rst adv
+adv_state:12
+[gapm_cmp_evt_handler] conidx:0,operation:0xa9,status:0x0
+[appm_adv_fsm_next] cur adv_state:c
+adv_state:13
+end adv_state:d
+[PLATFORM DEBUG]UNKNOW EVENT:19
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[gapm_cmp_evt_handler] conidx:0,operation:0xaa,status:0x0
+[appm_adv_fsm_next] cur adv_state:d
+adv_state:7
+end adv_state:7
+[PLATFORM DEBUG]UNKNOW EVENT:20
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[01-01 18:12:21 TUYA N][lr:0x9c9b5] ble adv && resp changed

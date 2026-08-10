@@ -1,0 +1,191 @@
+
+V:BK7231N_1.0.1
+REG:cpsr     spsr     r13      r14
+SVC:000000D3          00401C1C 000033AC
+IRQ:000000d2 00000010 00401e0c 0aab100e 
+FIR:000000d1 00000010 00401ffc c875da08 
+SYS:000000df          0040192c 00000158 
+ST:00000000
+J 0x10000
+bk_misc_init_start_type 0 0
+enter driver_init !
+[MEM DBG] heap init-------size:155624 addr:0x40a018---------
+[Flash]id:0xeb6015
+out driver_init !
+[load]bandgap_calm=0x71->0x31,vddig=4->5
+IP Rev: fb3b96c
+[bk]tx_txdesc_flush
+tkl_ethernetif_init
+tkl_ethernetif_init
+tkl_ethernetif_output: invalid vif: 255!
+tkl_ethernetif_output: invalid vif: 255!
+[01-01 00:00:00 TUYA N][lr:0x4f24b] crc_r[ca] crc_g[00] crc_b[67]
+[01-01 00:00:00 TUYA E][lr:0x9c197] uf_open 1 err 8
+[01-01 00:00:00 TUYA N][lr:0x51f49] No app data
+[01-01 00:00:00 TUYA N][lr:0x55089] BleSwitch=1
+[01-01 00:00:00 TUYA E][lr:0x9c197] uf_open 8 err 8
+[01-01 00:00:00 TUYA N][lr:0x5547b] reset is 0>>
+[01-01 00:00:00 TUYA E][lr:0x9c197] uf_open 12 err 8
+[01-01 00:00:00 TUYA E][lr:0x51125] candle use def
+[01-01 00:00:00 TUYA N][lr:0x550ad] first bright up
+[01-01 00:00:00 TUYA N][lr:0x5547b] reset is 0>>
+[01-01 00:00:00 TUYA E][lr:0x8ba47] logseq empty
+ota don't start or start err, can't end inform!
+*******************************tuya_os_adapt_set_cpu_lp_mode,en = 1, mode = 0
+pmu_release_wakelock(PMU_OS)
+g_wifi_core.io_queue null
+bk_wlan_mcu_ps_mode_enable()
+*******************************tuya_os_adapt_set_cpu_lp_mode,en = 0, mode = 0
+g_wifi_core.io_queue null
+bk_wlan_mcu_ps_mode_disable()
+bk_ps_mode_disable
+[01-01 00:00:00 TUYA N][lr:0xbc3ff] key_addr: 0x1ee000   block_sz 4096
+[01-01 00:00:00 TUYA N][lr:0xbc4cd] get key:
+0x2c 0x73 0xc7 0xee 0x4a 0x11 0xd2 0xcf 0x3b 0x21 0xa3 0xd3 0xdb 0xae 0x1f 0x3f 
+[01-01 00:00:00 TUYA N][lr:0x845c5] uni_random_init...
+[01-01 00:00:00 TUYA N][lr:0x8c881] tuya_tls_rand_init ok!
+[FUNC]intc_init
+[FUNC]calibration_main
+gpio_level=1,txpwr_state=15
+get rfcali_mode:1
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+calibration_main over
+calibrate low value:[6b7]
+calibrate high value:[d7b]
+temp in flash is:343
+xtal in flash is:40
+[FUNC]func_init_extended OVER
+Version:1.0.9
+app_init finished
+[01-01 00:00:01 TUYA N][lr:0x570c5] mf_init succ
+[01-01 00:00:01 TUYA N][lr:0x55d2b] < TuyaOS V:3.3.44 BS:40.00_PT:2.3_LAN:3.5_CAD:1.0.5_CD:1.0.0 >
+< BUILD AT:2024_12_12_17_45_32 BY ci_manage FOR tuyaos-iot AT bk7231n >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 LITTLE_END:1 TLS_MODE:2 OPERATING_SYSTEM:9[01-01 00:00:01 TUYA N][lr:0x55d35] oem_bk7231n_light_ty:1.6.0
+[01-01 00:00:01 TUYA N][lr:0x55ddf] connect mode is 5
+[01-01 00:00:01 TUYA E][lr:0x9c197] uf_open 2 err 8
+[01-01 00:00:01 TUYA N][lr:0x5712f] current product ssid name:tuya_mdev_test1
+[sa_sta]MM_RESET_REQ
+[bk]tx_txdesc_flush
+[sa_sta]ME_CONFIG_REQ
+[sa_sta]ME_CHAN_CONFIG_REQ
+[sa_sta]MM_START_REQ
+sizeof(wpa_supplicant)=928
+hapd_intf_add_vif,type:2, s:0, id:0
+wpa_dInit
+netif_is_added: 0x3f64a4
+netif_is_added: 0x3f645c
+net_wlan_add_netif already exist!, vif_idx:0
+mac 3c: b:59:44:c8:90
+net_wlan_add_netif done!, vif_idx:0
+scan SSID: 74 75 79 61 5F 6D 64 65 76 5F 74 65 73 74 31 
+wpa_supplicant_req_scan
+Setting scan[retry6] request: 0.000000 sec
+wpa_supplicant_scan
+wpa_supplicant_scan 866
+wpa_drv_scan
+ht in scan
+scan_start_req_handler
+wlan_sta_scan tries count: 0
+wpa_driver_scan_start_cb
+temperature_type=2
+temp_code:32 - adc_code:329 - adc_trend:[13]:343->[14]:333
+wpa_driver_scan_cb
+Scan completed in 2.336000 seconds
+wait sem timeout
+scan err
+[01-01 00:00:03 TUYA N][lr:0xb71a7] wifi soc init. pid:key8u54q9dtru5jw firmwarekey:key8u54q9dtru5jw ver:1.6.0
+[01-01 00:00:03 TUYA N][lr:0xc9145] start wifi link params validate, nc_tp:0 md:0
+[01-01 00:00:03 TUYA N][lr:0xc9181] wifi config method not fit
+[01-01 00:00:03 TUYA N][lr:0xc8de1] reset wifi link params to factory state, nc_tp:1 md:0 mthd:5 start mode:3
+[01-01 00:00:03 TUYA E][tuya_wifi_link.c:582] ret:-2819
+[01-01 00:00:03 TUYA E][lr:0xca2af] read wf start mode err:-6
+[01-01 00:00:03 TUYA N][lr:0xbfb91] Last reset reason: 0
+[01-01 00:00:03 TUYA N][lr:0xbfc23] gw_cntl->gw_wsm.stat:0
+[01-01 00:00:03 TUYA E][lr:0x84e7d] kvs_read fails gw_di -6
+[01-01 00:00:03 TUYA E][lr:0xbfca5] desc read err:-6
+[01-01 00:00:03 TUYA E][tuya_svc_devos.c:491] ret:-6
+[01-01 00:00:03 TUYA N][lr:0xbfe25] enter reset factory
+[01-01 00:00:03 TUYA E][lr:0x84e7d] kvs_read fails gw_di -6
+[01-01 00:00:03 TUYA E][lr:0x84e7d] kvs_read fails gw_ai -6
+[01-01 00:00:04 TUYA N][lr:0xc02bf] enter success_proc
+[01-01 00:00:04 TUYA N][lr:0xc02d1] serial_no:3c0b5944c890
+[01-01 00:00:04 TUYA N][lr:0x55e81] frame init ok
+[01-01 00:00:04 TUYA N][lr:0x4cb5d] opMeshRemoterCtrlInit!
+[01-01 00:00:04 TUYA E][lr:0xca2af] read wf start mode err:-6
+rw_ieee80211_set_country code:
+code: CN
+channel: 1 - 13
+mode: MANUAL
+[01-01 00:00:04 TUYA E][lr:0x9c197] uf_open 11 err 8
+bk_wlan cca closed
+wpa_supplicant_req_scan
+Setting scan[retry6] request: 0.000000 sec
+wpa_supplicant_scan
+wpa_supplicant_scan 866
+wlan_sta_scan_once tries count: 0
+wpa_drv_scan
+ht in scan
+scan_start_req_handler
+wpa_driver_scan_start_cb
+[01-01 00:00:04 TUYA E][lr:0x4cc07] ble remote data read err
+[01-01 00:00:04 TUYA N][lr:0x55eb7] ble remote ok
+RSSI: e0:d3:62:32:3b:25  -89 -> -88
+temp_code:34 - adc_code:324 - adc_trend:[14]:333->[15]:323
+wpa_driver_scan_cb
+Scan completed in 2.402000 seconds
+wait sem timeout
+net_wlan_remove_netif done!, vif_idx:0
+Cancelling scan request
+scanu completed
+Soft_AP_start
+[saap]MM_RESET_REQ
+[bk]tx_txdesc_flush
+[saap]ME_CONFIG_REQ
+[saap]ME_CHAN_CONFIG_REQ
+[saap]MM_START_REQ
+apm start with vif:0
+me_set_ps_disable:943 0 0 1 0 0 0
+------beacon_int_set:100 TU
+set_active param 0
+[msg]APM_STOP_CFM
+update_ongoing_1_bcn_update
+hal_machw_enter_monitor_mode
+[01-01 00:00:06 TUYA N][lr:0x55ba1] start ez auto blink
+[01-01 00:00:06 TUYA N][lr:0xc1ddb] bt startup attr:ff
+[01-01 00:00:06 TUYA N][lr:0x96a75] upd product_id type:1 key8u54q9dtru5jw
+[01-01 00:00:06 TUYA N][tuya_ble_api.c:77] dev id key: 16
+b3 23 6a c6 6c 7b 99 f1 4a b3 22 96 2c fb 92 57 
+
+[01-01 00:00:06 TUYA N][tuya_ble_api.c:77] adv_data 28
+02 01 06 03 02 01 a2 14 16 01 a2 01 b5 31 ed 98 c7 61 5e be 34 e5 ff bd 0f 1c 8d b3 
+
+[01-01 00:00:06 TUYA N][tuya_ble_api.c:77] rsp_data 30
+03 09 54 59 19 ff d0 07 89 03 00 00 0c 00 d3 cb eb f0 ac 65 50 4a 80 00 50 16 72 60 12 bd 
+
+ble mac:3c-0b-59-44-c8-91
+BLE IP Rev: 76f0dd2
+llm_init:312
+
+tkl_hci_callback_register
+llm_init:312
+[01-01 00:00:06 TUYA N][lr:0x97dbf] ble sdk re_inited
+[01-01 00:00:06 TUYA N][lr:0x96bfb] ty bt sdk init success finish
+[01-01 00:00:06 TUYA N][lr:0x97c55] cur bound stat:1, update bound stat:0
+[01-01 00:00:06 TUYA N][lr:0xd26b3] Start Adv
+[01-01 00:00:07 TUYA N][lr:0xc059b] __devos_init_evt success
+[01-01 00:00:07 TUYA N][tuya_ble_api.c:77] dev id key: 16
+7c c0 66 93 2a 23 12 eb a2 58 8d 2e c5 a9 51 8f 
+
+[01-01 00:00:07 TUYA N][tuya_ble_api.c:77] adv_data 28
+02 01 06 03 02 01 a2 14 16 01 a2 01 6b 65 79 38 75 35 34 71 39 64 74 72 75 35 6a 77 
+
+[01-01 00:00:07 TUYA N][tuya_ble_api.c:77] rsp_data 30
+03 09 54 59 19 ff d0 07 09 03 00 00 0c 00 48 5e 8a dc 45 db e4 33 a0 19 70 e6 c2 ad cc 3e 
+
+[01-01 00:00:07 TUYA N][lr:0xd26b3] Start Adv
+[01-01 00:00:07 TUYA N][lr:0x97b4d] ble adv && resp changed

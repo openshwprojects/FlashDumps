@@ -1,0 +1,247 @@
+
+V:BK7231N_1.0.1
+REG:cpsr     spsr     r13      r14
+SVC:000000D3          00401C1C 000033AC
+IRQ:000000d2 00000010 00401e0c 4a2b1886 
+FIR:000000d1 00000010 00401ffc c975da1c 
+SYS:000000df          0040192c 00000158 
+ST:00000000
+J 0x10000
+bk_misc_init_start_type 0 0
+prvHeapInit-start addr:0x4111b0, size:126544
+[Flash]id:0xeb6015
+[01-01 18:12:15 TUYA I][lr:0xa584d] mqc app init ...
+[01-01 18:12:15 TUYA I][lr:0xb087b] thread_create name:sys_timer,stackDepth:4096,totalstackDepth:4096,priority:5
+[01-01 18:12:15 TUYA I][lr:0xb087b] thread_create name:cmmod,stackDepth:4096,totalstackDepth:8192,priority:4
+[01-01 18:12:15 TUYA D][lr:0xb0707] Thread:sys_timer Exec Start. Set to Running Stat
+[01-01 18:12:15 TUYA D][lr:0xa5767] mq_pro:5 cnt:1
+[01-01 18:12:15 TUYA D][lr:0xa5767] mq_pro:31 cnt:2
+[01-01 18:12:15 TUYA D][lr:0xd402f] svc online log init success
+[01-01 18:12:15 TUYA D][lr:0xcca0b] read m:1 f:0 l:0
+[01-01 18:12:15 TUYA I][lr:0xb087b] thread_create name:wk_th-0,stackDepth:5120,totalstackDepth:13312,priority:3
+[01-01 18:12:15 TUYA E][lr:0xb47e9] wd_protected_read fails gw_bi -23
+[01-01 18:12:15 TUYA D][lr:0xb4a5b] gw base read finish:-23
+[01-01 18:12:15 TUYA D][lr:0xd1beb] ty bt cmmod regist ok:1
+dev id key: 16
+d4 1d 8c d9 8f 00 b2 04 e9 80 09 98 ec f8 42 7e 
+[PLATFORM DEBUG]bt_port_init
+[01-01ble mac:50-8b-b9-67-64- 18:12:15 TUYA N][lr:0xaa
+!!!!!!init_type=0
+a1d65] ble sdk re_inite[ble_appm_send_gapm_resed
+[01-01 18:12:15 TUYAt_cmd]
+!!!!!!init_type=1
+llm_init:312
+ D][l[gapm_cmp_evt_handler] r:0xd2651] bt active inconidx:0,operation:0x1,it
+[01-01 18:12:15 TUYstatus:0x0
+cmd->addr.aA N][lr:0xd1cd9] ty bt sddr[5] :0
+!!!!!!init_tdk init success finishype=2
+[gapm_cmp_evt_ha
+[01-01 18:12:15 TUYA Nndler] conidx:0,operati][lr:0x5cb9b] --- pre_don:0x3,status:0x0
+gapmevice_init:59 ---
+_cmp_evt:GAPM_SET_DEV_CONFIG
+gapm_cmp_evt:wait GAPM_GEN_RAND_NB
+[gapm_cmp_evt_handler] conidx:0,operation:0x1a,status:0x0
+gapm_cmp_evt:GAPM_GEN_RAND_NB
+[gapm_cmp_evt_handler] conidx:0,operation:0x1a,status:0x0
+gapm_cmp_evt:GAPM_GEN_RAND_NB
+[gapm_cmp_evt_handler] conidx:0,operation:0x28,status:0x0
+gapm_cmp_evt:BLE_STACK_OK
+[PLATFORM NOTICE]STACK INIT OK
+ble create new db
+ble_env->start_hdl = 0x10
+[PLATFORM NOTICE]CREATE DB OK
+adv_state:1
+[gapm_cmp_evt_handler] conidx:0,operation:0x1b,status:0x0
+adv_actv_idx:0,tx_pwr:0
+[PLATFORM DEBUG]UNKNOW EVENT:17
+[gapm_cmp_evt_handler] conidx:0,operation:0xa0,status:0x0
+[appm_adv_fsm_next] cur adv_state:1
+adv_stat[01-01 18:12:15 TUYA N]e:2
+[ble_appm_set_adv_[lr:0x5d0ff] find led[1data]set data
+end adv_]_lv none
+[01-01 18:12state:2
+[PLATFORM DEBU:15 TUYA N][lr:0x5d12f]G]UNKNOW EVENT:16
+[gap find led[1]_pin none
+m_cmp_evt_handler] conid[01-01 18:12:15 TUYA N]x:0,operation:0xa9,stat[lr:0x5d265] channel inus:0x0
+[appm_adv_fsm_nit success
+[01-01 18:1ext] cur adv_state:2
+a2:15 TUYA N][lr:0x60199dv_state:3
+end adv_stat] reset [pwr] cnt:5,time:3
+[PLATFORM DEBUG]UNe:5s
+[01-01 18:12:15 TKNOW EVENT:16
+[gapm_cmUYA N][lr:0x601bb] resep_evt_handler] conidx:0t [sw] cnt:5,time:5s
+,operation:0xaa,status:0[01-01 18:12:15 TUYA N][x0
+[appm_adv_fsm_next]lr:0x601c3] reset type: cur adv_state:3
+adv_s7
+[PLATFORM NOTICE]bk_tORM NOTICE]bk_rst:0 turst:0 tuya_rst:0
+ya_rst:0
+[ble_appm_start_ad[01-01 18:12:15 TUYA N]vertising]
+end adv_stat[lr:0x5aef1] read pwr ue:6
+[PLATFORM DEBUG]UNf data:{cnt=0}
+[01-01 KNOW EVENT:16
+18:12:15 TUY[gapm_cmp_evt_handlA N][lr:0x5ad93] er] cowrite pwr cnt:{cnt=1}
+nidx:0,operation:0xa4,status:0x0
+[appm_adv_fsm_next] cur adv_state:6
+adv_state:7
+end adv_state:7
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[01-01 18:12:15 TUYA N][lr:0xca9c7] key_addr: 0x1ee000   block_sz 4096
+[01-01 18:12:15 TUYA N][lr:0xcaa97] get key:
+0xdb 0xe5 0xf5 0xde 0x2a 0x14 0x41 0x6a 0xbe 0x3e 0xfa 0x8d 0xb6 0x43 0xbe 0xf8 
+[load]bandgap_calm=0x71->0x31,vddig=4->5
+[bk]tx_txdesc_flush
+[FUNC]intc_init
+[FUNC]calibration_main
+gpio_level=1,txpwr_state=15
+get rfcali_mode:1
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+DPLL Unlock
+calibration_main over
+temp in flash is:343
+xtal in flash is:73
+[FUNC]func_init_extended OVER
+Version:
+tcp_port:62642
+app_init finished
+[01-01 18:12:16 TUYA N][lr:0x5c9bd] mf_init succ
+[01-01 18:12:16 TUYA N][lr:0x5cbc3] --- app_init:564 ---
+[01-01 18:12:16 TUYA N][lr:0x5cbcf] < TUYA IOT SDK V:2.3.3 BS:40.00_PT:2.2_LAN:3.4_CAD:1.0.5_CD:1.0.0 >
+< BUILD AT:2022_12_07_15_29_01 BY ci_manage FOR ty_iot_sdk AT bk7231n >
+IOT DEFS < WIFI_GW:1 DEBUG:1 KV_FILE:0 SHUTDOWN_MODE:0 LITTLE_END:1 TLS_MODE:2 ENABLE_CLOUD_OPERATION:0 OPERATING_SYSTEM:2 ENABLE_SYS_RPC:0 RELIABLE_TRANSFER:0 ENABLE_LAN_ENCRYPTION:1 ENABLE_LAN_LINKAGE:0 ENABLE_LAN_DEV:0 >
+
+[01-01 18:12:16 TUYA N][lr:0x5cbd9] oem_bk7231n_control_switch:1.3.10
+[01-01 18:12:16 TUYA N][lr:0x5cbe3] firmware compiled at Dec 12 2022 14:09:13
+[PLATFORM NOTICE]bk_rst:0 tuya_rst:0
+[01-01 18:12:16 TUYA N][lr:0x5cbef] system restart reason is:0
+[01-01 18:12:16 TUYA N][lr:0x603b7] json cfg:[,series_tx:11,rl1_lv:1,on_off_cnt:5,onoff_rst_m:1,series_rx:10,onoff_clear_t:5,rand_dpid:42,net_trig:4,onoff_n:5,netled1_lv:1,jv:100,onoff_rst_type:2,series_baud:0,total_bt_pin:9,nety_led:0,total_stat:2,reset_t:10,netled1_pin:8,remote_add_dp:49,remote_list_dp:50,net_type:0,inch_dp:44,module:CB3S,ch_cddpid1:9,onoff1:24,clean_t:5,init_conf:38,zero_select:0,onoff_type:0,series_ctrl:1,total_bt_lv:0,cyc_dpid:43,remote_select:0,ch_num:1,rl1_pin:6,netn_led:1,ch_dpid1:1,crc:9,}ZZZZZZˆæA]
+[01-01 18:12:16 TUYA N][lr:0x6117f] ctrl lock init
+[01-01 18:12:16 TUYA N][lr:0x60eef] wd key[wd_lock_mem] is null
+[01-01 18:12:16 TUYA E][lr:0x60f6b] wd save data err:1
+[01-01 18:12:16 TUYA N][lr:0x61199] read ctrl lock err:1
+[01-01 18:12:16 TUYA N][lr:0x5de0b] wd key[wd_cfg_mem] is null
+[01-01 18:12:16 TUYA N][lr:0x5ff35] read power on stat fail:1, use json default value
+[01-01 18:12:16 TUYA N][lr:0x5ff51] read stat: [POWER]:2
+******* ch[0] *******
+[RELAY] - pin:6,	 io_drive:2
+[KEY] - pin:24,	 io_drive:1,	 type:2,	 long_press:0
+
+******* system *******
+[WIFI LED] - pin:8,	 io_drive:2
+[TOTAL KEY] - pin:9,	 io_drive:0,	 long_press:10
+[UART] - have uart control
+[WIFI MTHD]-5, [WIFI LED]-3, [KEY TRIG]-0
+
+[01-01 18:12:16 TUYA N][lr:0x5de0b] wd key[wd_channel_mem] is null
+[01-01 18:12:16 TUYA E][lr:0x566b7] OPRT_INVALID_PARM
+[01-01 18:12:16 TUYA N][lr:0x5de0b] wd key[wd_cfg_mem] is null
+[01-01 18:12:16 TUYA N][lr:0x600b5] read key type fail:1, default key type:0
+[01-01 18:12:16 TUYA N][lr:0x600c5] read stat:[KEY_TYPE]:0
+[01-01 18:12:16 TUYA N][lr:0x600cf] device [onoff] init success.
+[01-01 18:12:16 TUYA N][lr:0x60409] app read_gw_wsm.nc_tp:[1][0]
+[01-01 18:12:16 TUYA N][lr:0x5ca29] current product ssid name:tuya_mdev_test1
+[sa_sta]MM_RESET_REQ
+[bk]tx_txdesc_flush
+[sa_sta]ME_CONFIG_REQ
+[sa_sta]ME_CHAN_CONFIG_REQ
+[sa_sta]MM_START_REQ
+sizeof(wpa_supplicant)=928
+hapd_intf_add_vif,type:2, s:0, id:0
+wpa_dInit
+enter low level!
+mac 50:8b:b9:67:64:a9
+leave low level!
+net_wlan_add_netif done!, vif_idx:0
+scan SSID: 74 75 79 61 5F 6D 64 65 76 5F 74 65 73 74 31 
+wpa_supplicant_req_scan
+Setting scan[retry16] request: 0.000000 sec
+wpa_supplicant_scan
+wpa_supplicant_scan 866
+wpa_drv_scan
+ht in scan
+scan_start_req_handler
+wpa_driver_scan_start_cb
+temperature_type=2
+temp_code:32 - adc_code:328 - adc_trend:[13]:343->[14]:333
+wpa_driver_scan_cb
+Scan completed in 2.338000 seconds
+[PLATFORM ERROR]scan err
+[01-01 18:12:18 TUYA N][lr:0x5cc4f] --- device_init start:1870! remain heap:64800---
+[01-01 18:12:18 TUYA N][lr:0xb9a53] wifi soc init. pid:keyjnuy4s3kre7m7 firmwarekey:keyjnuy4s3kre7m7 ver:1.3.10
+[PLATFORM NOTICE]bk_rst:0 tuya_rst:0
+[01-01 18:12:18 TUYA N][lr:0xb3c9b] Last reset reason: 0
+[01-01 18:12:18 TUYA N][lr:0xb3d77] serial_no:508bb96764a9
+rw_ieee80211_set_country code:
+code: CN
+channel: 1 - 13
+mode: MANUAL
+bk_wlan cca closed
+[01-01 18:12:18 TUYA N][lr:0xb3db5] gw_cntl.gw_wsm.stat:0
+[01-01 18:12:18 TUYA N][lr:0xb82c5] gw_cntl->gw_wsm.nc_tp:1
+[01-01 18:12:18 TUYA N][lr:0xb82cd] gw_cntl->gw_wsm.md:0
+[01-01 18:12:18 TUYA N][lr:0xb3f11] gw_cntl.gw_if.abi:0 input:0
+[01-01 18:12:18 TUYA N][lr:0xb3f1f] gw_cntl.gw_if.product_key:keyjnuy4s3kre7m7, input:keyjnuy4s3kre7m7
+[01-01 18:12:18 TUYA N][lr:0xb3f29] gw_cntl.gw_if.tp:0, input:0
+[01-01 18:12:18 TUYA N][lr:0xb3f39] gw_cntl.gw_if.firmware_key:keyjnuy4s3kre7m7, input:keyjnuy4s3kre7m7
+[01-01 18:12:18 TUYA N][lr:0xd1d57] ty bt upd product:keyjnuy4s3kre7m7 1
+[01-01 18:12:18 TUYA N][lr:0x57141] wd_common_read failed op_ret:-6
+[01-01 18:12:18 TUYA N][lr:0x57141] wd_common_read failed op_ret:-6
+[01-01 18:12:18 TUYA N][lr:0x581c9] start tuya_inch_time_init..
+[01-01 18:12:18 TUYA N][lr:0x60609] have uart control.
+[01-01 18:12:18 TUYA N][lr:0x5dd01] uart version:1.0.0,memrory left:56496
+[01-01 18:12:18 TUYA N][lr:0x5ddb1] uart init ok,memrory left:53112
+[01-01 18:12:18 TUYA N][lr:0x6062f] remote rf433 not enable
+[01-01 18:12:18 TUYA N][lr:0x60bdf] not have dltj!
+[01-01 18:12:18 TUYA N][lr:0x5ccb5] --- device_init success:1941! remain heap:53112 ---
+wpa_supplicant_req_scan
+Setting scan[retry16] request: 0.000000 sec
+wpa_supplicant_scan
+wpa_supplicant_scan 866
+wpa_drv_scan
+ht in scan
+scan_start_req_handler
+wpa_driver_scan_start_cb
+temp_code:33 - adc_code:326 - adc_trend:[14]:333->[15]:323
+RSSI: e0:d3:62:32:3b:25  -87 -> -86
+[01-01 18:12:20 TUYA N][lr:0x5ae2d] pwr clear time arrive!
+[01-01 18:12:20 TUYA N][lr:0x5ad93] write pwr cnt:{cnt=0}
+wpa_driver_scan_cb
+Scan completed in 2.324000 seconds
+net_wlan_remove_netif done!, vif_idx:0
+Cancelling scan request
+scanu completed
+Soft_AP_start
+[saap]MM_RESET_REQ
+[bk]tx_txdesc_flush
+[saap]ME_CONFIG_REQ
+[saap]ME_CHAN_CONFIG_REQ
+[saap]MM_START_REQ
+apm start with vif:0
+me_set_ps_disable:842 0 0 1 0 0
+------beacon_int_set:100 TU
+set_active param 0
+[msg]APM_STOP_CFM
+update_ongoing_1_bcn_update
+hal_machw_enter_monitor_mode
+[01-01 18:12:21 TUYA N][lr:0x601f5] wifi stat --> 1
+[01-01 18:12:21 TUYA N][lr:0xa1c83] update bound stat:0
+dev id key: 16
+a3 4d ed 2f a7 b4 85 ff cd db 4c 2a b6 46 73 53 
+[PLATFORM DEBUG]bt rst adv
+adv_state:12
+[gapm_cmp_evt_handler] conidx:0,operation:0xa9,status:0x0
+[appm_adv_fsm_next] cur adv_state:c
+adv_state:13
+end adv_state:d
+[PLATFORM DEBUG]UNKNOW EVENT:19
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[gapm_cmp_evt_handler] conidx:0,operation:0xaa,status:0x0
+[appm_adv_fsm_next] cur adv_state:d
+adv_state:7
+end adv_state:7
+[PLATFORM DEBUG]UNKNOW EVENT:20
+[PLATFORM DEBUG]UNKNOW EVENT:16
+[01-01 18:12:21 TUYA N][lr:0xa1a55] ble adv && resp changed
