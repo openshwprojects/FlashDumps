@@ -1,0 +1,26 @@
+Intent:
+As-close-as-possible reconstruction of the original TC0301 W600 device while
+remaining pairable in the Tuya app.
+
+Key provenance:
+- 0x00000-0x01FFF: exact recovered first 8 KiB from the original TC0301 device.
+- 0x02000-0x0FFFF: compatible replacement W600 secboot; original was lost.
+- 0x10100-0x8760B: exact decompressed genuine TC0301 1.4.1 application.
+- 0x90000-0xDEDD3: exact genuine TC0301 1.4.1 OTA gzip payload.
+- 0xE8000-0xEFFFF: erased FF; strongly supported by the recovered device state.
+- 0xF0000-0xF0FFF: recovered original TC0301 SimpleFlash KV block, cloned with
+  only gw_wsm provisioning state changed for pairing:
+      nc_tp: 0 -> 2
+      stat : 1 -> 0
+- 0xF1000-0xFAFFF: erased where original historical SimpleFlash state was lost.
+- 0xFB000-0xFBFFF: exact recovered original TC0301 SimpleFlash key sector.
+- 0xFC000-0xFC037: exact genuine TC0301 OTA T_BOOTER header.
+- 0xFD000-0xFEFFF: erased FF so WinnerMicro firmware can regenerate SYS PARAM
+  defaults; original pre-conversion SYS PARAM is lost.
+- 0xFF000-0xFFFFF: erased FF, matching the recovered specimen.
+
+The recovered Tuya identity/KV is intentionally cloned. The only deliberate KV
+change is the gw_wsm registration/provisioning state required to enter AP
+pairing mode.
+
+This is not an untouched factory dump.
