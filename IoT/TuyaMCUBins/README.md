@@ -1,3 +1,3 @@
-A collection of OTA binaries offered by the Tuya app if a TuyaMCU device is flagged as having an update available. Pics alongside binaries show changelog. Current firmware version shown in image is not necessarily a real version shipped with device.
+OTA binaries and their catalogues have moved to [zOTAz/Tuya](../zOTAz/Tuya/), organised by OTA channel. The former TuyaMCU OTA collection and update screenshots are in [channel-9](../zOTAz/Tuya/channel-9/).
 
 FULL binaries are from backups taken of whole MCU (excluding any eeproms).
