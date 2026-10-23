@@ -5,17 +5,17 @@ Firmware offered by Tuya, organised by the OTA channel reported for the componen
 | Channel | Tuya component label | Typical updates | Unique cached files |
 |---:|---|---|---:|
 | [0](channel-0/) | Main Module | Main network/application firmware, commonly Wi-Fi modules and gateways | 280 |
-| [1](channel-1/) | Bluetooth Module | Bluetooth/BLE modules and components | 49 |
-| [3](channel-3/) | ZigBee Module | Zigbee modules, coordinators and components | 53 |
-| [9](channel-9/) | MCU Module | MCU/application firmware, including some host-processor packages | 265 |
+| [1](channel-1/) | Bluetooth Module | Bluetooth/BLE modules and components | 57 |
+| [3](channel-3/) | ZigBee Module | Zigbee modules, coordinators and components | 64 |
+| [9](channel-9/) | MCU Module | MCU/application firmware, including some host-processor packages | 316 |
 
-There are **647 unique cached binaries** across these folders. The channel-9 total includes one separately labelled, MD5-verified camera second-stage download; it was referenced by an updater, not independently offered by the Tuya API.
+There are **717 unique cached binaries** across these folders. The channel-9 total includes one separately labelled, MD5-verified camera second-stage download; it was referenced by an updater, not independently offered by the Tuya API.
 
 Each channel README lists the filename, product key, target version, OTA changelog and original download URL. Release notes are retained from Tuya responses where captured. Three older channel-9 entries instead use their matching update screenshots. Historical URL-list entries without a captured response have blank changelog cells and do not acquire guessed product keys or release notes.
 
 Identical bytes are stored once per collection, even when offered for multiple product keys or found at different CDN URLs. Existing researched channel-9 filenames have been preserved. Other filenames retain descriptive Tuya download names or evidence-supported device identifications; naming is not a guarantee of compatibility with another device.
 
-Files larger than our 100 MiB repository cutoff are kept locally and listed without a repository-file link. Currently this applies to the Eufy RoboVac S1 Pro package in channel 9. The remaining 646 cached binaries have repository-file links.
+Files larger than our 100 MiB repository cutoff are kept locally and listed without a repository-file link. Currently this applies to the Eufy RoboVac S1 Pro package in channel 9. The remaining 716 cached binaries have repository-file links.
 
 One additional historical channel-0 entry, `1626070894-oem_bk7231s_light_ug_3.0.1.bin`, could not be downloaded: its public locations return HTTP 403. It remains listed without a local-file link.
 
