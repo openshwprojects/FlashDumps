@@ -4,18 +4,20 @@ Firmware offered by Tuya, organised by the OTA channel reported for the componen
 
 | Channel | Tuya component label | Typical updates | Unique cached files |
 |---:|---|---|---:|
-| [0](channel-0/) | Main Module | Main network/application firmware, commonly Wi-Fi modules and gateways | 416 |
-| [1](channel-1/) | Bluetooth Module | Bluetooth/BLE modules and components | 126 |
+| [0](channel-0/) | Main Module | Main network/application firmware, commonly Wi-Fi modules and gateways | 635 |
+| [1](channel-1/) | Bluetooth Module | Bluetooth/BLE modules and components | 128 |
 | [3](channel-3/) | ZigBee Module | Zigbee modules, coordinators and components | 160 |
-| [9](channel-9/) | MCU Module | MCU/application firmware, including some host-processor packages | 528 |
+| [9](channel-9/) | MCU Module | MCU/application firmware, including some host-processor packages | 533 |
+| [10](channel-10/) | Other type | Product-specific component; offerings link to identical bytes stored in channels 0 or 9 | 0 |
+| [12](channel-12/) | Other type | Product-specific component; observed AIR32F103-targeted firmware for RF Water Timer | 1 |
 
-There are **1230 unique cached binaries** across these folders. The channel-9 total includes one separately labelled, MD5-verified camera second-stage download; it was referenced by an updater, not independently offered by the Tuya API.
+There are **1457 unique cached binaries** across these folders. The channel-9 total includes one separately labelled, MD5-verified camera second-stage download; it was referenced by an updater, not independently offered by the Tuya API.
 
 Each channel README lists the filename, product key, target version, OTA changelog and original download URL. Release notes are retained from Tuya responses where captured. Three older channel-9 entries instead use their matching update screenshots. Historical URL-list entries without a captured response have blank changelog cells and do not acquire guessed product keys or release notes.
 
-Identical bytes are stored once per collection, even when offered for multiple product keys or found at different CDN URLs. Existing researched channel-9 filenames have been preserved. Channel-0 files retain their original Tuya download filenames. Other channels retain descriptive Tuya download names or evidence-supported device identifications; naming is not a guarantee of compatibility with another device.
+Identical bytes are stored once per collection, even when offered for multiple product keys or found at different CDN URLs. When the same bytes are offered on multiple channels, each channel README records its own offering and links to the single stored file. Original Tuya download filenames are used across channels where captured. Three historical channel-9 files retain descriptive names because their originals were not recorded. Device/model and platform/MCU information is retained in each channel README and the private catalogue; naming is not a guarantee of compatibility.
 
-Files larger than our 100 MiB repository cutoff are kept locally and listed without a repository-file link. This applies to the Eufy RoboVac S1 Pro package in channel 9, the Nova Digital MidPanel 8 package in channel 0, and the XZ-AZK101 control-screen package in channel 0. The remaining 1227 cached binaries have repository-file links.
+Files larger than our 100 MiB repository cutoff are kept locally and listed without a repository-file link. This applies to the Eufy RoboVac S1 Pro package in channel 9, the Nova Digital MidPanel 8 package in channel 0, the XZ-AZK101 control-screen package in channel 0, and the Dustin 7100 RK3326 package in channel 0. The remaining 1453 cached binaries have repository-file links.
 
 One additional historical channel-0 entry, `1626070894-oem_bk7231s_light_ug_3.0.1.bin`, could not be downloaded: its public locations return HTTP 403. It remains listed without a local-file link.
 
