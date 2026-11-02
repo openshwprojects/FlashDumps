@@ -4,7 +4,7 @@ This collection contains firmware offered by Tuya as channel 9 (MCU Module/TuyaM
 
 The product key identifies the Tuya product for which the OTA was offered. The listed version is the target OTA version; a current version used to reveal an update is not evidence that the version ever shipped in a retail device.
 
-The catalogue currently contains 532 unique OTA payloads across 541 product/version/URL offering records. Release-note text for 529 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 529 payloads and may stop working independently of the archived files.
+The catalogue currently contains 533 unique OTA payloads across 542 product/version/URL offering records. Release-note text for 530 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 530 payloads and may stop working independently of the archived files.
 
 Original Tuya download filenames are used where captured; three historical entries retain their descriptive names because the originals were not recorded. Device/model and platform/MCU descriptions are preserved in separate columns. Changelog wording is retained from Tuya. Matching update screenshots, where available, are in [`images/`](images/).
 
@@ -12,6 +12,7 @@ A single payload may be offered for multiple product keys. The device/model colu
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`1677049383599d2a7a631.bin`](1677049383599d2a7a631.bin) | Rollei Wireless Security Cam 1080p | Goke GK7202V300 LiteOS bundle target (separate Wi-Fi chip unconfirmed) | `hfbdesvboolrzfpu` | `1.1.35` | Release new firmware , please upgrade | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1519789929924bPhBU/1677049383599d2a7a631.bin> |
 | [`179315385674ee87ce574.bin`](179315385674ee87ce574.bin) | R15-Zigbee Smart Thermostat Cooling Capable | 8051-compatible MCU (chip unclassified) | `agcxaw3f` | `1.0.8` | V18 | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1671175132655mOtP/179315385674ee87ce574.bin> |
 | [`1619686503camapp`](1619686503camapp) | DENVER IIC-215 | ARM Linux (SoC unclassified) | `xddx9odoamh2lvsn` | `2.3.59` | OTA | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1555461570141vLl8p/1619686503camapp> |
 | [`176663385376e366d3470.bin`](176663385376e366d3470.bin) | Molly&Cody Smart Feeder Titan WIFI | chipset unclassified | `gh0lmtxb5fumm0ad` | `1.2.6` | Optimization of known problems | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1628574157811uQBd/176663385376e366d3470.bin> |
