@@ -4,7 +4,7 @@ This collection contains firmware offered by Tuya as channel 9 (MCU Module/TuyaM
 
 The product key identifies the Tuya product for which the OTA was offered. The listed version is the target OTA version; a current version used to reveal an update is not evidence that the version ever shipped in a retail device.
 
-The catalogue currently contains 533 unique OTA payloads across 542 product/version/URL offering records. Release-note text for 530 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 530 payloads and may stop working independently of the archived files.
+The catalogue currently contains 540 unique OTA payloads across 550 product/version/URL offering records. Release-note text for 538 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 537 payloads and may stop working independently of the archived files.
 
 Original Tuya download filenames are used where captured; three historical entries retain their descriptive names because the originals were not recorded. Device/model and platform/MCU descriptions are preserved in separate columns. Changelog wording is retained from Tuya. Matching update screenshots, where available, are in [`images/`](images/).
 
@@ -12,6 +12,14 @@ A single payload may be offered for multiple product keys. The device/model colu
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`179006476503f60eb2e45.bin`](179006476503f60eb2e45.bin) | TermoPlaza heater | Not established | `xlln3q6hczrp31df` | `1.4.2` | Power Off fix | <https://images.tuyaeu.com/smart/firmware/acc/bay1607348090427rdBH/179006476503f60eb2e45.bin> |
+| [`17785776015bff2cdae62.bin`](17785776015bff2cdae62.bin) | Lion EV-UItra | ArtInChip Luban-Lite / RT-Thread RISC-V (d13x package target) | `pcaduzywoal3zaib` | `1.0.4` | Fix the car's automatic stop charging without saving the diary | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1679485904402r3cx/17785776015bff2cdae62.bin> |
+| [`1789806122a36330a4e18.bin`](1789806122a36330a4e18.bin) | TS Sideline | Not established | `pkgk72uonlqlzcil` | `1.1.6` | OTA | <https://images.tuyaeu.com/smart/firmware/upgrade/ay15658461058274pV5k/1789806122a36330a4e18.bin> |
+| [`1792050833d34d3eb44ce.bin`](1792050833d34d3eb44ce.bin) | Touchstone Elite | Not established | `qhwld7e4eqvu5fbp` | `1.1.3` | OTA | <https://images.tuyaeu.com/smart/firmware/upgrade/ay15658461058274pV5k/1792050833d34d3eb44ce.bin> |
+| [`17518815816b4fc8c95d2.bin`](17518815816b4fc8c95d2.bin) | Smart Dual Water  Timer | ARM Cortex-M (chipset unclassified) | `jntxv3q4` | `1.0.28` | 1. Optimize connection distance;  2. Fix some issues<br>If the upgrade fails: Unbind the device from the gateway. After the upgrade is successful, associate the device with the gateway again. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1501578980436KOuNc/17518815816b4fc8c95d2.bin> |
+| [`1789990162daf4dc9bda7.bin`](1789990162daf4dc9bda7.bin) | Neptun Smart+ | ARM Cortex-M (chipset unclassified) | `fbewfxzogbzphuy3` | `1.2.6` | Fixes | <https://images.tuyaeu.com/smart/firmware/acc/bay1592199725911oo92/1789990162daf4dc9bda7.bin> |
+| [`1652949060b956c742e3f.CleanPack`](1652949060b956c742e3f.CleanPack) | Nova (iHRV6) | R328 SDK/build target (ARM Linux; physical variant unconfirmed) | `gejo2t2mgux3avdq` | `2.1.8` | When the mop attachment is not installed, and start the mop clean with the remote control, the Robot button light will flash red light 10s then resume previous status. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1601053931835mksU/1652949060b956c742e3f.CleanPack> |
+| [`16901683658aa214d1f24.bin`](16901683658aa214d1f24.bin) | Casa Leo v2 | ARM Cortex-M (exact MCU unknown) | `1badzyvwh1e1hrog` | `1.0.02` | We've have updated the cleaning timer delay to default to 2 minutes. Please contact us at support@casaleopet.com if you have questions. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1539928297801ur47D/16901683658aa214d1f24.bin> |
 | [`1677049383599d2a7a631.bin`](1677049383599d2a7a631.bin) | Rollei Wireless Security Cam 1080p | Goke GK7202V300 LiteOS bundle target (separate Wi-Fi chip unconfirmed) | `hfbdesvboolrzfpu` | `1.1.35` | Release new firmware , please upgrade | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1519789929924bPhBU/1677049383599d2a7a631.bin> |
 | [`179315385674ee87ce574.bin`](179315385674ee87ce574.bin) | R15-Zigbee Smart Thermostat Cooling Capable | 8051-compatible MCU (chip unclassified) | `agcxaw3f` | `1.0.8` | V18 | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1671175132655mOtP/179315385674ee87ce574.bin> |
 | [`1619686503camapp`](1619686503camapp) | DENVER IIC-215 | ARM Linux (SoC unclassified) | `xddx9odoamh2lvsn` | `2.3.59` | OTA | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1555461570141vLl8p/1619686503camapp> |
@@ -562,3 +570,5 @@ This file is fetched by a channel-9 camera updater and matches its embedded MD5.
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
 | [`ota.bin`](ota.bin) | Smart Camera Camapp Second Stage | Not established | `ic1fe5nqimzizncq` | Not independently reported |  | <https://firmware-camera.s3-ap-northeast-1.amazonaws.com/tuya/ic1fe5nqimzizncq/ota.bin> |
+
+Package integrity for [`17785776015bff2cdae62.bin`](17785776015bff2cdae62.bin): The original Tuya file has a CPIO checksum mismatch for `ota_info.bin` (stored 116014; calculated 114590). The main OS record and both FIT CRC32/MD5 pairs verify. Original bytes are preserved.
