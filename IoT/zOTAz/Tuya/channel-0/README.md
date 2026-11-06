@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 0 (Main Module). The channel identifies the component, not its chipset.
 
-1100 unique cached payloads are listed below. Tuya JSON release notes are available for 1013 offering rows; 154 captured responses supplied no description. 216 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+1103 unique cached payloads are listed below. Tuya JSON release notes are available for 1016 offering rows; 154 captured responses supplied no description. 216 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Channel-0 files retain their original Tuya download filenames. Device/model and platform/MCU information is retained in separate columns.
 
@@ -10,6 +10,9 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`1567741868-oem_esp_Globe_2_plug_1_key_ug_TLS_1.0.1.bin`](1567741868-oem_esp_Globe_2_plug_1_key_ug_TLS_1.0.1.bin) | Outdoor Plug 2 | ESP8266 | `s9fpaoujraxvunvr` | `1.0.1` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/201909/1567741868-oem_esp_Globe_2_plug_1_key_ug_TLS_1.0.1.bin> |
+| [`1516603827-esp_guanglan_plug_ug_1.0.2.bin`](1516603827-esp_guanglan_plug_ug_1.0.2.bin) | Smart Socket | ESP8266 | `VMz5quz8hvPAD88A` | `1.0.2` | 1.0.2 Hi! We’ve improved your device’s reliability and fixed a number of bugs. Update to the new firmware? | <https://images.tuyaeu.com/smart/firmware/upgrade/201801/1516603827-esp_guanglan_plug_ug_1.0.2.bin> |
+| [`163551507565547dc22fd.tar.gz`](163551507565547dc22fd.tar.gz) | eufy RoboVac X8 | Host/controller package; platform unclassified | `yszsathk6upumhp2` | `1.2.10` | 1. Optimized the experience of setting No-Go Zones.<br>2. Optimized the logic of recharging.<br>3. Optimized the logic of dividing rooms.<br>4. Optimized map-storage logic to reduce the probability of losing maps.<br>5. Optimized other possible bugs. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1591928940859k2z5/163551507565547dc22fd.tar.gz> |
 | [`16687401995c93219efc0.bin`](16687401995c93219efc0.bin) | smart device | Ingenic T21 Linux build target | `1a8pw5malckruoab` | `5.1.8` | Optimize offline issues | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1613805428625VHFP/16687401995c93219efc0.bin> |
 | [`1699861296e617e408384.bin`](1699861296e617e408384.bin) | HK-P123T-W 4G/Wi-Fi PTZ camera with solar panel | Hi3518EV300 camera bundle with HI3861V100 Wi-Fi component | `1zrv9skrqz17fwun` | `2.10.38` | This release notes:<br>1. The update version number is 2.10.38<br>2. Fix customer feedback problems | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1568808812161OlPJW/1699861296e617e408384.bin> |
 | [`1654503171f1c0fe747fe.bin`](1654503171f1c0fe747fe.bin) | Security Camera | Hi3518EV200 (LiteOS build) | `6nln0aib7ky635zp` | `2.5.35` | firmware updated | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1564726276545RivzT/1654503171f1c0fe747fe.bin> |

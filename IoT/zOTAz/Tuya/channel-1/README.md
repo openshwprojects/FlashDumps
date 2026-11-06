@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 1 (Bluetooth Module). The channel identifies the component, not its chipset.
 
-128 unique cached payloads are listed below. Tuya JSON release notes are available for 126 offering rows; 15 captured responses supplied no description. 0 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+129 unique cached payloads are listed below. Tuya JSON release notes are available for 127 offering rows; 15 captured responses supplied no description. 0 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Original Tuya download filenames are used; device/model and platform/MCU descriptions are retained separately.
 
@@ -10,6 +10,7 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`1728902858-TUYA_BCI_BASE_TLSR825x_OTA_2.3.5.bin`](1728902858-TUYA_BCI_BASE_TLSR825x_OTA_2.3.5.bin) | Battery BLE Roller | TLSR825x | `jetlwvfm` | `2.3.5` | Red directive compliance | <https://images.tuyaeu.com/smart/firmware/upgrade/20241014/1728902858-TUYA_BCI_BASE_TLSR825x_OTA_2.3.5.bin> |
 | [`1678499854d07b6d16c42.bin`](1678499854d07b6d16c42.bin) | DRACO | TLSR825x; exact variant unconfirmed | `xvuejyfp` | `2.3` | Fixed an issue with invalid sensor brightness Settings. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1575418591548RPQtJ/1678499854d07b6d16c42.bin> |
 | [`1678503943bbd9648d1a7.bin`](1678503943bbd9648d1a7.bin) | POLLUX | TLSR825x; exact variant unconfirmed | `xl2yyswh` | `2.3` | Fixed an issue with invalid sensor brightness Settings. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1575418591548RPQtJ/1678503943bbd9648d1a7.bin> |
 | [`1624861683-tlsr_825x_sigmesh_remote_taiji_0.3.bin`](1624861683-tlsr_825x_sigmesh_remote_taiji_0.3.bin) | TIGI T100R Remote Controller | TLSR825x | `bgzmf39l` | `0.3` | 优化修复可能的死机问题 | <https://images.tuyaeu.com/smart/firmware/upgrade/20210628/1624861683-tlsr_825x_sigmesh_remote_taiji_0.3.bin> |

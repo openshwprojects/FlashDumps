@@ -4,7 +4,7 @@ This collection contains firmware offered by Tuya as channel 9 (MCU Module/TuyaM
 
 The product key identifies the Tuya product for which the OTA was offered. The listed version is the target OTA version; a current version used to reveal an update is not evidence that the version ever shipped in a retail device.
 
-The catalogue currently contains 547 unique OTA payloads across 560 product/version/URL offering records. Release-note text for 548 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 544 payloads and may stop working independently of the archived files.
+The catalogue currently contains 553 unique OTA payloads across 567 product/version/URL offering records. Release-note text for 555 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 550 payloads and may stop working independently of the archived files.
 
 Original Tuya download filenames are used where captured; three historical entries retain their descriptive names because the originals were not recorded. Device/model and platform/MCU descriptions are preserved in separate columns. Changelog wording is retained from Tuya. Matching update screenshots, where available, are in [`images/`](images/).
 
@@ -12,6 +12,13 @@ A single payload may be offered for multiple product keys. The device/model colu
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`1664246482b0e263b1007.bin`](1664246482b0e263b1007.bin) | CF033 / PLAF103 Pet Feeder | MCU unclassified | `dxcjsrr0d45inpmd` | `1.1.19` | Fix some known problems. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1577717726791liVBu/1664246482b0e263b1007.bin> |
+| [`168109075454c1dcd3130.pack`](168109075454c1dcd3130.pack) | Eufy Clean X8 Pro | ARM Linux package | `wahqax6ifjgs1c4n` | `3.0.60` | Fixed bugs and enhanced the user experience. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1636967444744gBFQ/1681091338bd86e83605e.pack> |
+| [`16596928414cbf0a7c28c.bin`](16596928414cbf0a7c28c.bin) | Smart Sprinkler Controller | MCU unclassified | `bpuav0kkuvhsqtnz` | `1.0.9` | Optimize watering timer | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1513061730920i97zP/16596928414cbf0a7c28c.bin> |
+| [`1668758301f3c32fc361c.bin`](1668758301f3c32fc361c.bin) | XS-X6 / Abir X6 robot vacuum | MCU unclassified | `g62fnprnafitqmqt` | `1.1.0` | New Version | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1577167957623L2rTa/1668758301f3c32fc361c.bin> |
+| [`17310580908f5cad3b2e4.bin`](17310580908f5cad3b2e4.bin) | Pet Feeder | MCU unclassified | `rsable5fhytohlhn` | `1.7.0` | Fix Bug | <https://images.tuyaeu.com/smart/firmware/upgrade/bay15904833783242Uq4/17310580908f5cad3b2e4.bin> |
+| [`1744788742bc5ac062a3f.bin`](1744788742bc5ac062a3f.bin) | eufy Clean L60 Hybrid SES | Host/controller package; platform unclassified | `vbny2iyaapm4wtfx` | `1.4.5` | Fixed bugs and enhanced the user experience. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1679988230528qYeh/1744788742bc5ac062a3f.bin> |
+| [`1636416636a79c96994a8.bin`](1636416636a79c96994a8.bin) | Royal Clima RCB 150 | MCU unclassified | `wcp2nfeclky0ybwi` | `1.1.16` | Auxiliary heat optimization | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1588841801984SxVz/1636416636a79c96994a8.bin> |
 | [`163766574805c5739ef7f.bin`](163766574805c5739ef7f.bin) | Denver VDB-216 / 720P Outdoor Wall Lighting Camera | Ingenic T31 Linux build target | `18piluwjzs1uy1cd` | `1.0.43` | OTA  test | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1543031096643TGWCa/163766574805c5739ef7f.bin> |
 | [`1607312500liteoslzm`](1607312500liteoslzm) | Security Camera | Hi3518 family (LiteOS build; exact variant unconfirmed) | `1oritrbfwyxuuwp5` | `1.3.17` | New firmware found, please upgrade. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay15372371921250HFeV/1607312500liteoslzm> |
 | [`16518314425490124cb40.bin`](16518314425490124cb40.bin) | Winees Smart Video Doorbell D1 | Ingenic T31 family | `fjx63x2i3asp3ntx` | `12.2.5` | Optimize networking. Optimize human body detection function | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1561642505485zpwwi/16518314425490124cb40.bin> |
