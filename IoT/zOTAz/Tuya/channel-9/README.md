@@ -4,7 +4,7 @@ This collection contains firmware offered by Tuya as channel 9 (MCU Module/TuyaM
 
 The product key identifies the Tuya product for which the OTA was offered. The listed version is the target OTA version; a current version used to reveal an update is not evidence that the version ever shipped in a retail device.
 
-The catalogue currently contains 553 unique OTA payloads across 567 product/version/URL offering records. Release-note text for 555 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 9 responses had no description. Original Tuya CDN URLs were captured for 550 payloads and may stop working independently of the archived files.
+The catalogue currently contains 554 unique OTA payloads across 568 product/version/URL offering records. Release-note text for 555 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 10 responses had no description. Original Tuya CDN URLs were captured for 550 payloads and may stop working independently of the archived files.
 
 Original Tuya download filenames are used where captured; three historical entries retain their descriptive names because the originals were not recorded. Device/model and platform/MCU descriptions are preserved in separate columns. Changelog wording is retained from Tuya. Matching update screenshots, where available, are in [`images/`](images/).
 
@@ -12,6 +12,7 @@ A single payload may be offered for multiple product keys. The device/model colu
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`157466400261c2ff7c9de.bin`](157466400261c2ff7c9de.bin) | D600 | MCU unclassified | `3s3ac6en8whjei0e` | `1.1.2` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1521275236617KA7xc/157466400261c2ff7c9de.bin> |
 | [`1664246482b0e263b1007.bin`](1664246482b0e263b1007.bin) | CF033 / PLAF103 Pet Feeder | MCU unclassified | `dxcjsrr0d45inpmd` | `1.1.19` | Fix some known problems. | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1577717726791liVBu/1664246482b0e263b1007.bin> |
 | [`168109075454c1dcd3130.pack`](168109075454c1dcd3130.pack) | Eufy Clean X8 Pro | ARM Linux package | `wahqax6ifjgs1c4n` | `3.0.60` | Fixed bugs and enhanced the user experience. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1636967444744gBFQ/1681091338bd86e83605e.pack> |
 | [`16596928414cbf0a7c28c.bin`](16596928414cbf0a7c28c.bin) | Smart Sprinkler Controller | MCU unclassified | `bpuav0kkuvhsqtnz` | `1.0.9` | Optimize watering timer | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1513061730920i97zP/16596928414cbf0a7c28c.bin> |

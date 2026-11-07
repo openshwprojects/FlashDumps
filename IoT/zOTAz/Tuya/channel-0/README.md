@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 0 (Main Module). The channel identifies the component, not its chipset.
 
-1103 unique cached payloads are listed below. Tuya JSON release notes are available for 1016 offering rows; 154 captured responses supplied no description. 216 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+1107 unique cached payloads are listed below. Tuya JSON release notes are available for 1020 offering rows; 154 captured responses supplied no description. 216 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Channel-0 files retain their original Tuya download filenames. Device/model and platform/MCU information is retained in separate columns.
 
@@ -10,6 +10,10 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`1631265063892de57f951.bin`](1631265063892de57f951.bin) | Tuya Generic MSL12 Fairy Light Strip | BK7231T (HYS_03_018; SDK 1.0.2-40.00) | `qi4hvlw3xndxepsq` | `1.1.0` | update | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1488250737181CTA8y/1631265063892de57f951.bin> |
+| [`16292717351ec484ef74c.bin`](16292717351ec484ef74c.bin) | Roborock S5 Max | Host/controller package; platform unclassified | `3kjccacfngtmhygv` | `02.15.16` | -Fix some bugs to improve user experience. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1592273325562o8TE/16292717351ec484ef74c.bin> |
+| [`165416916968a0639be85.bin`](165416916968a0639be85.bin) | Roborock S4 | Host/controller package; platform unclassified | `4mmtuqca00todf8t` | `02.06.26` | -Optimized the quick mapping experience; | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1594362108342XZWK/165416916968a0639be85.bin> |
+| [`1526119596-esp_kaite_4_plug_ug_1.0.9.bin`](1526119596-esp_kaite_4_plug_ug_1.0.9.bin) | Merkury Smart Plug | ESP8266 | `FOaUOAWS32QSRG9u` | `1.0.9` | Hi, we have upgraded the firmware of your smart plug. This should give you big reliability improvements and fix Daylight Savings compatibility issues. Would you like to update to the latest version? | <https://images.tuyaeu.com/smart/firmware/upgrade/201805/1526119596-esp_kaite_4_plug_ug_1.0.9.bin> |
 | [`1567741868-oem_esp_Globe_2_plug_1_key_ug_TLS_1.0.1.bin`](1567741868-oem_esp_Globe_2_plug_1_key_ug_TLS_1.0.1.bin) | Outdoor Plug 2 | ESP8266 | `s9fpaoujraxvunvr` | `1.0.1` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/201909/1567741868-oem_esp_Globe_2_plug_1_key_ug_TLS_1.0.1.bin> |
 | [`1516603827-esp_guanglan_plug_ug_1.0.2.bin`](1516603827-esp_guanglan_plug_ug_1.0.2.bin) | Smart Socket | ESP8266 | `VMz5quz8hvPAD88A` | `1.0.2` | 1.0.2 Hi! We’ve improved your device’s reliability and fixed a number of bugs. Update to the new firmware? | <https://images.tuyaeu.com/smart/firmware/upgrade/201801/1516603827-esp_guanglan_plug_ug_1.0.2.bin> |
 | [`163551507565547dc22fd.tar.gz`](163551507565547dc22fd.tar.gz) | eufy RoboVac X8 | Host/controller package; platform unclassified | `yszsathk6upumhp2` | `1.2.10` | 1. Optimized the experience of setting No-Go Zones.<br>2. Optimized the logic of recharging.<br>3. Optimized the logic of dividing rooms.<br>4. Optimized map-storage logic to reduce the probability of losing maps.<br>5. Optimized other possible bugs. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1591928940859k2z5/163551507565547dc22fd.tar.gz> |
