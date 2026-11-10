@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 0 (Main Module). The channel identifies the component, not its chipset.
 
-1107 unique cached payloads are listed below. Tuya JSON release notes are available for 1021 offering rows; 154 captured responses supplied no description. 215 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+1108 unique cached payloads are listed below. Tuya JSON release notes are available for 1022 offering rows; 154 captured responses supplied no description. 215 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Channel-0 files retain their original Tuya download filenames. Device/model and platform/MCU information is retained in separate columns.
 
@@ -10,6 +10,7 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`17315652887be62598b25.bin`](17315652887be62598b25.bin) | YOMOGI YO-WIFI-C02 Smart Curtain | RTL8720CF / AmebaZII (TuyaOS 3.8.5) | `tuto6sqkpjjioddj` | `1.2.0` | V1.2.0 | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1704357888761hyWh/17315652887be62598b25.bin> |
 | [`1631265063892de57f951.bin`](1631265063892de57f951.bin) | Tuya Generic MSL12 Fairy Light Strip | BK7231T (HYS_03_018; SDK 1.0.2-40.00) | `qi4hvlw3xndxepsq` | `1.1.0` | update | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1488250737181CTA8y/1631265063892de57f951.bin> |
 | [`16292717351ec484ef74c.bin`](16292717351ec484ef74c.bin) | Roborock S5 Max | Host/controller package; platform unclassified | `3kjccacfngtmhygv` | `02.15.16` | -Fix some bugs to improve user experience. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1592273325562o8TE/16292717351ec484ef74c.bin> |
 | [`165416916968a0639be85.bin`](165416916968a0639be85.bin) | Roborock S4 | Host/controller package; platform unclassified | `4mmtuqca00todf8t` | `02.06.26` | -Optimized the quick mapping experience; | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1594362108342XZWK/165416916968a0639be85.bin> |
