@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 3 (ZigBee Module). The channel identifies the component, not its chipset.
 
-160 unique cached payloads are listed below. Tuya JSON release notes are available for 235 offering rows; 26 captured responses supplied no description. 7 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+161 unique cached payloads are listed below. Tuya JSON release notes are available for 235 offering rows; 27 captured responses supplied no description. 7 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Original Tuya download filenames are used; device/model and platform/MCU descriptions are retained separately.
 
@@ -10,6 +10,7 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`1591461673-oem_si32_zg_watering_bn_1_OTA_1.0.5.bin`](1591461673-oem_si32_zg_watering_bn_1_OTA_1.0.5.bin) | Woox R7060 smart garden irrigation controller | EFR32 family (native driver evidence; exact chip unconfirmed) | `aivjlfnq` | `1.0.5` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/202006/1591461673-oem_si32_zg_watering_bn_1_OTA_1.0.5.bin> |
 | [`1545364305-oem_si32_zg_scene_switch4_seebest_QIO_1.0.6.bin`](1545364305-oem_si32_zg_scene_switch4_seebest_QIO_1.0.6.bin) | BL-KCZ04 Scene Switch | EFR32 | `brVA4294` | `1.0.6` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/201812/1545364305-oem_si32_zg_scene_switch4_seebest_QIO_1.0.6.bin> |
 | [`1589527908-oem_si32_zg_switch3_jp_OTA_1.0.5.bin`](1589527908-oem_si32_zg_switch3_jp_OTA_1.0.5.bin) | Zigbee 3 Gang Switch KP-BK9S03-AC220V  zigbee(ty) | EFR32 | `wbkykhyd` | `1.0.5` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/202005/1589527908-oem_si32_zg_switch3_jp_OTA_1.0.5.bin> |
 | [`1545724173-oem_si32_zg_scene_switch4_ty_QIO_1.0.8.bin`](1545724173-oem_si32_zg_scene_switch4_ty_QIO_1.0.8.bin) | US Zigbee 3 Gang Scene Switch TY-Z-US-S1 | EFR32 | `hylzjlx8` | `1.0.8` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/201812/1545724173-oem_si32_zg_scene_switch4_ty_QIO_1.0.8.bin> |
