@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 3 (ZigBee Module). The channel identifies the component, not its chipset.
 
-161 unique cached payloads are listed below. Tuya JSON release notes are available for 235 offering rows; 27 captured responses supplied no description. 7 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+164 unique cached payloads are listed below. Tuya JSON release notes are available for 237 offering rows; 28 captured responses supplied no description. 7 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Original Tuya download filenames are used; device/model and platform/MCU descriptions are retained separately.
 
@@ -10,6 +10,9 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`177210037852094d8e838.ota`](177210037852094d8e838.ota) | Danfoss Ally radiator thermostat | Silicon Labs EFR32 family; additional host image unidentified | `den6kzk0` | `0.2.2` | New ZigBee datapoints for temperature offset & critical low battery protection mode | <https://images.tuyaeu.com/smart/firmware/acc/bay16022401959475Byk/177210037852094d8e838.ota> |
+| [`16704160827c7920fbc5b.ota`](16704160827c7920fbc5b.ota) | Danfoss Icon Zigbee Module/controller | Silicon Labs Gecko (GBL); additional host image unidentified | `mn0tq0tl` | `0.1.5` |  | <https://images.tuyaeu.com/smart/firmware/acc/ay1577096816804oP4lN/16704160827c7920fbc5b.ota> |
+| [`1728700317-oem_light_tl8258_bulb_OTA_1.2.9.bin`](1728700317-oem_light_tl8258_bulb_OTA_1.2.9.bin) | TS0505B Zigbee light | TLSR8258 (Tuya tl8258 build identifier and native Telink string) | `o6amiqxv` | `1.2.9` | 1.2.9 | <https://images.tuyaeu.com/smart/firmware/upgrade/20241012/1728700317-oem_light_tl8258_bulb_OTA_1.2.9.bin> |
 | [`1591461673-oem_si32_zg_watering_bn_1_OTA_1.0.5.bin`](1591461673-oem_si32_zg_watering_bn_1_OTA_1.0.5.bin) | Woox R7060 smart garden irrigation controller | EFR32 family (native driver evidence; exact chip unconfirmed) | `aivjlfnq` | `1.0.5` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/202006/1591461673-oem_si32_zg_watering_bn_1_OTA_1.0.5.bin> |
 | [`1545364305-oem_si32_zg_scene_switch4_seebest_QIO_1.0.6.bin`](1545364305-oem_si32_zg_scene_switch4_seebest_QIO_1.0.6.bin) | BL-KCZ04 Scene Switch | EFR32 | `brVA4294` | `1.0.6` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/201812/1545364305-oem_si32_zg_scene_switch4_seebest_QIO_1.0.6.bin> |
 | [`1589527908-oem_si32_zg_switch3_jp_OTA_1.0.5.bin`](1589527908-oem_si32_zg_switch3_jp_OTA_1.0.5.bin) | Zigbee 3 Gang Switch KP-BK9S03-AC220V  zigbee(ty) | EFR32 | `wbkykhyd` | `1.0.5` |  | <https://images.tuyaeu.com/smart/firmware/upgrade/202005/1589527908-oem_si32_zg_switch3_jp_OTA_1.0.5.bin> |

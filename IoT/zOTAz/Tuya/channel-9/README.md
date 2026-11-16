@@ -4,7 +4,7 @@ This collection contains firmware offered by Tuya as channel 9 (MCU Module/TuyaM
 
 The product key identifies the Tuya product for which the OTA was offered. The listed version is the target OTA version; a current version used to reveal an update is not evidence that the version ever shipped in a retail device.
 
-The catalogue currently contains 557 unique OTA payloads across 572 product/version/URL offering records. Release-note text for 559 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 10 responses had no description. Original Tuya CDN URLs were captured for 553 payloads and may stop working independently of the archived files.
+The catalogue currently contains 558 unique OTA payloads across 573 product/version/URL offering records. Release-note text for 560 entries comes directly from cached Tuya channel-9 JSON; 3 superseded entries use text from their matching Tuya update screenshots; and 10 responses had no description. Original Tuya CDN URLs were captured for 554 payloads and may stop working independently of the archived files.
 
 Original Tuya download filenames are used where captured; three historical entries retain their descriptive names because the originals were not recorded. Device/model and platform/MCU descriptions are preserved in separate columns. Changelog wording is retained from Tuya. Matching update screenshots, where available, are in [`images/`](images/).
 
@@ -12,6 +12,7 @@ A single payload may be offered for multiple product keys. The device/model colu
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`176578220826866d5a2ee.bin`](176578220826866d5a2ee.bin) | Vactidy Cleanova W15 floor cleaner | Unidentified chipset (LDROBOT SCV package) | `ut96oplbcckfxwwu` | `1.4.2` | Fixed some known bugs | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1619086319874gLD4/176578220826866d5a2ee.bin> |
 | [`1579683344e4782dc2d09.bin`](1579683344e4782dc2d09.bin) | Eufy G30 Edge robot vacuum | STM32F4 family (HAL driver evidence; exact chip unconfirmed) | `paapxs4vudcncsb9` | `0.1.16` | 0.1.16 version | <https://images.tuyaeu.com/smart/firmware/upgrade/ay1559699802081NXK4J/1579683344e4782dc2d09.bin> |
 | [`1742786844d255b97c5e1.bin`](1742786844d255b97c5e1.bin) | HHOLOVE Automatic Cat Litter Box Pro (CL-TYW) | Raspberry Pi RP2040 firmware target (Arduino-Pico) | `mvi4su6kpagtv0eh` | `3.0.3` | Optimized the product experience | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1672297587970Y0dy/1742786844d255b97c5e1.bin> |
 | [`1791958039271d4eb11e1.bin`](1791958039271d4eb11e1.bin) | Touchstone Elite electric fireplace | Not established | `pw8ga39lnvadcsvu` | `1.0.6` | OTA | <https://images.tuyaeu.com/smart/firmware/upgrade/ay15658461058274pV5k/1791958039271d4eb11e1.bin> |
