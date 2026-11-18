@@ -2,7 +2,7 @@
 
 This collection contains firmware reported for Tuya channel 0 (Main Module). The channel identifies the component, not its chipset.
 
-1111 unique cached payloads are listed below. Tuya JSON release notes are available for 1026 offering rows; 154 captured responses supplied no description. 215 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
+1113 unique cached payloads are listed below. Tuya JSON release notes are available for 1027 offering rows; 154 captured responses supplied no description. 215 historical URL-list rows have no captured OTA response. Blank changelog cells are intentional; no release notes are inferred from filenames or product descriptions.
 
 The product key and version belong to the individual offering. A payload may serve multiple products; identical bytes are stored once. Original download filenames and hash mappings are retained in the private catalogue. Channel-0 files retain their original Tuya download filenames. Device/model and platform/MCU information is retained in separate columns.
 
@@ -10,6 +10,8 @@ Files over 100 MiB are local-only and deliberately have no repository-file link.
 
 | File | Device / model | Platform / MCU | Product key | Version | OTA changelog | Original Tuya URL |
 |---|---|---|---|---:|---|---|
+| [`17919625986dbe38894c3.bin`](17919625986dbe38894c3.bin) | Dewenwils PTW04 / SHOWT01F timer | BK7231N (TuyaOS 3.3.31) | `0pcar0yzptykunfl` | `1.0.1` | Fix the issue of panel timing failure caused by prolonged device operation | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1637303575816c8r6/17919625986dbe38894c3.bin> |
+| [`1781341054889744aa389.bin`](1781341054889744aa389.bin) | 1-433 | Not established | `4vrqfjb8jftlw7ep` | `1.5.4` | fix | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1745074127364tYax/1781341054889744aa389.bin> |
 | [`1757559751-tuya_rtl8196e_gw_tar_UG_5.28.7.bin`](1757559751-tuya_rtl8196e_gw_tar_UG_5.28.7.bin) | Danfoss Ally Gateway | Realtek RTL8196E (MIPS Linux gateway package) | `bd84i0yw4fbz4lrg` | `5.28.7` | General improvements | <https://images.tuyaeu.com/smart/firmware/upgrade/20250911/1757559751-tuya_rtl8196e_gw_tar_UG_5.28.7.bin> |
 | [`176656338358c9185dfa3.bin`](176656338358c9185dfa3.bin) | Baseus Security P1 indoor camera | Anyka AK3918AV100 (CA100_YTJ; Linux 4.4.282) | `vvpyythdjjlge35g` | `2.0.53` | Fix some issues | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1681266831293CT5f/176656338358c9185dfa3.bin> |
 | [`17861762970233271914b.bin`](17861762970233271914b.bin) | Smart table lamp (Tuya product name) | BK7238 (T1); ZJ0001_P3_BK7238_DREAM_STRIP | `qjfe3uha8xfvn99b` | `0.0.38` | Modify the countdown breathing light reminder, night light mode countdown. | <https://images.tuyaeu.com/smart/firmware/upgrade/bay1619086147496x4lS/17861762970233271914b.bin> |
